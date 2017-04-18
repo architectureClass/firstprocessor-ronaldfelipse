@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/utp.CRIE/Desktop/firstprocessor-ronaldfelipse-3d3a6448cdfb3922c3d0108afe146206791c2697/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/utp.CRIE/Desktop/firstprocessor-ronaldfelipse-3d3a6448cdfb3922c3d0108afe146206791c2697/xst"
+elaborate
+-ifn PSRM.prj
+-ifmt mixed
