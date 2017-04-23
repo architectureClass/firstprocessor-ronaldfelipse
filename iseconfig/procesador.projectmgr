@@ -1,0 +1,156 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="procesador" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Procesador - Behavioral (C:/Users/utp/Desktop/firstprocessor-ronaldfelipse-3d3a6448cdfb3922c3d0108afe146206791c2697/Procesador.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001ba000000020000000000000000000000000200000064ffffffff000000810000000300000002000001ba0000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>Procesador - Behavioral (C:/Users/utp/Desktop/firstprocessor-ronaldfelipse-3d3a6448cdfb3922c3d0108afe146206791c2697/Procesador.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000252000000040101000100000000000000000000000064ffffffff000000810000000000000004000000420000000100000000000000240000000100000000000000660000000100000000000001860000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>extensionSigno.vhd</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>work</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000109000000010001000100000000000000000000000064ffffffff000000810000000000000001000001090000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>work</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Design Utilities</ClosedNode>
+         <ClosedNode>Implement Design</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/tbAlu - behavior C:|Users|utp.CRIE|Desktop|RestadorBinario8bits|procesador|tbAlu.vhd</ClosedNode>
+         <ClosedNode>/tbAlu - behavior C:|Users|utp.CRIE|Desktop|firstprocessor-ronaldfelipse-3d3a6448cdfb3922c3d0108afe146206791c2697|tbAlu.vhd</ClosedNode>
+         <ClosedNode>/tbAlu - behavior E:|arqui|procesador|tbAlu.vhd</ClosedNode>
+         <ClosedNode>/tbAlu - behavior F:|arqui|procesador|tbAlu.vhd</ClosedNode>
+         <ClosedNode>/tbInstructionMemory - behavior C:|Users|utp.CRIE|Desktop|RestadorBinario8bits|procesador|tbInstructionMemory.vhd</ClosedNode>
+         <ClosedNode>/tbInstructionMemory - behavior C:|Users|utp.CRIE|Desktop|firstprocessor-ronaldfelipse-3d3a6448cdfb3922c3d0108afe146206791c2697|tbInstructionMemory.vhd</ClosedNode>
+         <ClosedNode>/tbInstructionMemory - behavior E:|arqui|procesador|tbInstructionMemory.vhd</ClosedNode>
+         <ClosedNode>/tbInstructionMemory - behavior F:|arqui|procesador|tbInstructionMemory.vhd</ClosedNode>
+         <ClosedNode>/tbNPC - behavior C:|Users|utp.CRIE|Desktop|RestadorBinario8bits|procesador|tbNPC.vhd</ClosedNode>
+         <ClosedNode>/tbNPC - behavior C:|Users|utp.CRIE|Desktop|firstprocessor-ronaldfelipse-3d3a6448cdfb3922c3d0108afe146206791c2697|tbNPC.vhd</ClosedNode>
+         <ClosedNode>/tbNPC - behavior E:|arqui|procesador|tbNPC.vhd</ClosedNode>
+         <ClosedNode>/tbNPC - behavior F:|arqui|procesador|tbNPC.vhd</ClosedNode>
+         <ClosedNode>/tbProcesador - behavior C:|Users|utp.CRIE|Desktop|RestadorBinario8bits|procesador|tbProcesador.vhd</ClosedNode>
+         <ClosedNode>/tbRegisterFile - behavior E:|arqui|procesador|tbRegisterFile.vhd</ClosedNode>
+         <ClosedNode>/tbRegisterFile - behavior F:|arqui|procesador|tbRegisterFile.vhd</ClosedNode>
+         <ClosedNode>/tbUC - behavior E:|arqui|procesador|tbUC.vhd</ClosedNode>
+         <ClosedNode>/tbUC - behavior F:|arqui|procesador|tbUC.vhd</ClosedNode>
+         <ClosedNode>/tb_extensionSigno - behavior C:|Users|utp|Desktop|arqui|procesador|tb_extensionSigno.vhd</ClosedNode>
+         <ClosedNode>/tb_extensionSigno - behavior E:|arqui|procesador|tb_extensionSigno.vhd</ClosedNode>
+         <ClosedNode>/tb_extensionSigno - behavior F:|arqui|procesador|tb_extensionSigno.vhd</ClosedNode>
+         <ClosedNode>/tb_mux32 - behavior C:|Users|utp|Desktop|arqui|procesador|tb_mux32.vhd</ClosedNode>
+         <ClosedNode>/tb_mux32 - behavior E:|arqui|procesador|tb_mux32.vhd</ClosedNode>
+         <ClosedNode>/tb_mux32 - behavior F:|arqui|procesador|tb_mux32.vhd</ClosedNode>
+         <ClosedNode>/tb_programCounter - behavior C:|Users|utp|Desktop|arqui|procesador|tb_programCounter.vhd</ClosedNode>
+         <ClosedNode>/tb_programCounter - behavior E:|arqui|procesador|tb_programCounter.vhd</ClosedNode>
+         <ClosedNode>/tb_programCounter - behavior F:|arqui|procesador|tb_programCounter.vhd</ClosedNode>
+         <ClosedNode>/tb_sumador32 - behavior C:|Users|utp|Desktop|arqui|procesador|tb_sumador32.vhd</ClosedNode>
+         <ClosedNode>/tb_sumador32 - behavior E:|arqui|procesador|tb_sumador32.vhd</ClosedNode>
+         <ClosedNode>/tb_sumador32 - behavior F:|arqui|procesador|tb_sumador32.vhd</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>tbProcesador - behavior (C:/Users/utp/Desktop/firstprocessor-ronaldfelipse-3d3a6448cdfb3922c3d0108afe146206791c2697/tbProcesador.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >1</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001ce000000020000000000000000000000000200000064ffffffff000000810000000300000002000001ce0000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>tbProcesador - behavior (C:/Users/utp/Desktop/firstprocessor-ronaldfelipse-3d3a6448cdfb3922c3d0108afe146206791c2697/tbProcesador.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Simulate Behavioral Model</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Simulate Behavioral Model</CurrentItem>
+   </ItemView>
+   <SourceProcessView>000000ff00000000000000020000011b0000011b01000000050100000002</SourceProcessView>
+   <CurrentView>Implementation</CurrentView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_BMM" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" />
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+</Project>
