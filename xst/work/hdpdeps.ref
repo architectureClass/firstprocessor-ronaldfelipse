@@ -1,4 +1,99 @@
-V3 62
+V3 75
+FL "C:/Users/cristian b/Downloads/Procesor-4.2/Pull/firstprocessor-ronaldfelipse/ALU.vhd" 2017/04/25.17:15:12 P.20131013
+EN work/ALU 1493160546 \
+      FL "C:/Users/cristian b/Downloads/Procesor-4.2/Pull/firstprocessor-ronaldfelipse/ALU.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/ALU/Behavioral 1493160547 \
+      FL "C:/Users/cristian b/Downloads/Procesor-4.2/Pull/firstprocessor-ronaldfelipse/ALU.vhd" \
+      EN work/ALU 1493160546
+FL "C:/Users/cristian b/Downloads/Procesor-4.2/Pull/firstprocessor-ronaldfelipse/extensionSigno.vhd" 2017/04/04.17:18:54 P.20131013
+EN work/extensionSigno 1493160542 \
+      FL "C:/Users/cristian b/Downloads/Procesor-4.2/Pull/firstprocessor-ronaldfelipse/extensionSigno.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/extensionSigno/Behavioral 1493160543 \
+      FL "C:/Users/cristian b/Downloads/Procesor-4.2/Pull/firstprocessor-ronaldfelipse/extensionSigno.vhd" \
+      EN work/extensionSigno 1493160542
+FL "C:/Users/cristian b/Downloads/Procesor-4.2/Pull/firstprocessor-ronaldfelipse/InstructionMemory.vhd" 2017/04/04.17:18:54 P.20131013
+EN work/InstructionMemory 1493160536 \
+      FL "C:/Users/cristian b/Downloads/Procesor-4.2/Pull/firstprocessor-ronaldfelipse/InstructionMemory.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB std/TEXTIO 1381692176
+AR work/InstructionMemory/Behavioral 1493160537 \
+      FL "C:/Users/cristian b/Downloads/Procesor-4.2/Pull/firstprocessor-ronaldfelipse/InstructionMemory.vhd" \
+      EN work/InstructionMemory 1493160536
+FL "C:/Users/cristian b/Downloads/Procesor-4.2/Pull/firstprocessor-ronaldfelipse/multiplexor32.vhd" 2017/04/04.17:18:54 P.20131013
+EN work/multiplexor32 1493160544 \
+      FL "C:/Users/cristian b/Downloads/Procesor-4.2/Pull/firstprocessor-ronaldfelipse/multiplexor32.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/multiplexor32/Behavioral 1493160545 \
+      FL "C:/Users/cristian b/Downloads/Procesor-4.2/Pull/firstprocessor-ronaldfelipse/multiplexor32.vhd" \
+      EN work/multiplexor32 1493160544
+FL "C:/Users/cristian b/Downloads/Procesor-4.2/Pull/firstprocessor-ronaldfelipse/NProgramCounter.vhd" 2017/04/04.17:18:54 P.20131013
+EN work/NProgramCounter 1493160530 \
+      FL "C:/Users/cristian b/Downloads/Procesor-4.2/Pull/firstprocessor-ronaldfelipse/NProgramCounter.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/NProgramCounter/Behavioral 1493160531 \
+      FL "C:/Users/cristian b/Downloads/Procesor-4.2/Pull/firstprocessor-ronaldfelipse/NProgramCounter.vhd" \
+      EN work/NProgramCounter 1493160530
+FL "C:/Users/cristian b/Downloads/Procesor-4.2/Pull/firstprocessor-ronaldfelipse/Procesador.vhd" 2017/04/21.17:19:41 P.20131013
+EN work/Procesador 1493160548 \
+      FL "C:/Users/cristian b/Downloads/Procesor-4.2/Pull/firstprocessor-ronaldfelipse/Procesador.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/Procesador/Behavioral 1493160549 \
+      FL "C:/Users/cristian b/Downloads/Procesor-4.2/Pull/firstprocessor-ronaldfelipse/Procesador.vhd" \
+      EN work/Procesador 1493160548 CP PSRM CP PSR CP WindowsManager \
+      CP NProgramCounter CP ProgramCounter CP sumador32 CP InstructionMemory \
+      CP UnidadControl CP RegisterFile CP extensionSigno CP multiplexor32 CP ALU
+FL "C:/Users/cristian b/Downloads/Procesor-4.2/Pull/firstprocessor-ronaldfelipse/ProgramCounter.vhd" 2017/04/04.17:18:54 P.20131013
+EN work/ProgramCounter 1493160532 \
+      FL "C:/Users/cristian b/Downloads/Procesor-4.2/Pull/firstprocessor-ronaldfelipse/ProgramCounter.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/ProgramCounter/Behavioral 1493160533 \
+      FL "C:/Users/cristian b/Downloads/Procesor-4.2/Pull/firstprocessor-ronaldfelipse/ProgramCounter.vhd" \
+      EN work/ProgramCounter 1493160532
+FL "C:/Users/cristian b/Downloads/Procesor-4.2/Pull/firstprocessor-ronaldfelipse/PSR.vhd" 2017/04/21.16:53:54 P.20131013
+EN work/PSR 1493160526 \
+      FL "C:/Users/cristian b/Downloads/Procesor-4.2/Pull/firstprocessor-ronaldfelipse/PSR.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/PSR/Behavioral 1493160527 \
+      FL "C:/Users/cristian b/Downloads/Procesor-4.2/Pull/firstprocessor-ronaldfelipse/PSR.vhd" \
+      EN work/PSR 1493160526
+FL "C:/Users/cristian b/Downloads/Procesor-4.2/Pull/firstprocessor-ronaldfelipse/PSRM.vhd" 2017/04/18.16:40:57 P.20131013
+EN work/PSRM 1493160524 \
+      FL "C:/Users/cristian b/Downloads/Procesor-4.2/Pull/firstprocessor-ronaldfelipse/PSRM.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/PSRM/Behavioral 1493160525 \
+      FL "C:/Users/cristian b/Downloads/Procesor-4.2/Pull/firstprocessor-ronaldfelipse/PSRM.vhd" \
+      EN work/PSRM 1493160524
+FL "C:/Users/cristian b/Downloads/Procesor-4.2/Pull/firstprocessor-ronaldfelipse/RegisterFile.vhd" 2017/04/21.17:17:48 P.20131013
+EN work/RegisterFile 1493160540 \
+      FL "C:/Users/cristian b/Downloads/Procesor-4.2/Pull/firstprocessor-ronaldfelipse/RegisterFile.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/RegisterFile/Behavioral 1493160541 \
+      FL "C:/Users/cristian b/Downloads/Procesor-4.2/Pull/firstprocessor-ronaldfelipse/RegisterFile.vhd" \
+      EN work/RegisterFile 1493160540
+FL "C:/Users/cristian b/Downloads/Procesor-4.2/Pull/firstprocessor-ronaldfelipse/sumador32.vhd" 2017/04/04.17:18:54 P.20131013
+EN work/sumador32 1493160534 \
+      FL "C:/Users/cristian b/Downloads/Procesor-4.2/Pull/firstprocessor-ronaldfelipse/sumador32.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/sumador32/Behavioral 1493160535 \
+      FL "C:/Users/cristian b/Downloads/Procesor-4.2/Pull/firstprocessor-ronaldfelipse/sumador32.vhd" \
+      EN work/sumador32 1493160534
+FL "C:/Users/cristian b/Downloads/Procesor-4.2/Pull/firstprocessor-ronaldfelipse/UnidadControl.vhd" 2017/04/18.17:04:18 P.20131013
+EN work/UnidadControl 1493160538 \
+      FL "C:/Users/cristian b/Downloads/Procesor-4.2/Pull/firstprocessor-ronaldfelipse/UnidadControl.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/UnidadControl/Behavioral 1493160539 \
+      FL "C:/Users/cristian b/Downloads/Procesor-4.2/Pull/firstprocessor-ronaldfelipse/UnidadControl.vhd" \
+      EN work/UnidadControl 1493160538
+FL "C:/Users/cristian b/Downloads/Procesor-4.2/Pull/firstprocessor-ronaldfelipse/WindowsManager.vhd" 2017/04/21.17:11:14 P.20131013
+EN work/WindowsManager 1493160528 \
+      FL "C:/Users/cristian b/Downloads/Procesor-4.2/Pull/firstprocessor-ronaldfelipse/WindowsManager.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/WindowsManager/Behavioral 1493160529 \
+      FL "C:/Users/cristian b/Downloads/Procesor-4.2/Pull/firstprocessor-ronaldfelipse/WindowsManager.vhd" \
+      EN work/WindowsManager 1493160528
 FL C:/Users/utp.CRIE/Desktop/firstprocessor-ronaldfelipse-3d3a6448cdfb3922c3d0108afe146206791c2697/ALU.vhd 2017/04/18.17:08:26 P.20131013
 FL C:/Users/utp.CRIE/Desktop/firstprocessor-ronaldfelipse-3d3a6448cdfb3922c3d0108afe146206791c2697/extensionSigno.vhd 2017/04/04.17:18:54 P.20131013
 FL C:/Users/utp.CRIE/Desktop/firstprocessor-ronaldfelipse-3d3a6448cdfb3922c3d0108afe146206791c2697/InstructionMemory.vhd 2017/04/04.17:18:54 P.20131013
@@ -11,97 +106,15 @@ FL C:/Users/utp.CRIE/Desktop/firstprocessor-ronaldfelipse-3d3a6448cdfb3922c3d010
 FL C:/Users/utp.CRIE/Desktop/firstprocessor-ronaldfelipse-3d3a6448cdfb3922c3d0108afe146206791c2697/sumador32.vhd 2017/04/04.17:18:54 P.20131013
 FL C:/Users/utp.CRIE/Desktop/firstprocessor-ronaldfelipse-3d3a6448cdfb3922c3d0108afe146206791c2697/UnidadControl.vhd 2017/04/18.17:04:18 P.20131013
 FL C:/Users/utp/Desktop/firstprocessor-ronaldfelipse-3d3a6448cdfb3922c3d0108afe146206791c2697/ALU.vhd 2017/04/21.16:33:19 P.20131013
-EN work/ALU 1492813106 \
-      FL C:/Users/utp/Desktop/firstprocessor-ronaldfelipse-3d3a6448cdfb3922c3d0108afe146206791c2697/ALU.vhd \
-      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
-AR work/ALU/Behavioral 1492813107 \
-      FL C:/Users/utp/Desktop/firstprocessor-ronaldfelipse-3d3a6448cdfb3922c3d0108afe146206791c2697/ALU.vhd \
-      EN work/ALU 1492813106
 FL C:/Users/utp/Desktop/firstprocessor-ronaldfelipse-3d3a6448cdfb3922c3d0108afe146206791c2697/extensionSigno.vhd 2017/04/04.17:18:54 P.20131013
-EN work/extensionSigno 1492813102 \
-      FL C:/Users/utp/Desktop/firstprocessor-ronaldfelipse-3d3a6448cdfb3922c3d0108afe146206791c2697/extensionSigno.vhd \
-      PB ieee/std_logic_1164 1381692176
-AR work/extensionSigno/Behavioral 1492813103 \
-      FL C:/Users/utp/Desktop/firstprocessor-ronaldfelipse-3d3a6448cdfb3922c3d0108afe146206791c2697/extensionSigno.vhd \
-      EN work/extensionSigno 1492813102
 FL C:/Users/utp/Desktop/firstprocessor-ronaldfelipse-3d3a6448cdfb3922c3d0108afe146206791c2697/InstructionMemory.vhd 2017/04/04.17:18:54 P.20131013
-EN work/InstructionMemory 1492813096 \
-      FL C:/Users/utp/Desktop/firstprocessor-ronaldfelipse-3d3a6448cdfb3922c3d0108afe146206791c2697/InstructionMemory.vhd \
-      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
-      PB std/TEXTIO 1381692176
-AR work/InstructionMemory/Behavioral 1492813097 \
-      FL C:/Users/utp/Desktop/firstprocessor-ronaldfelipse-3d3a6448cdfb3922c3d0108afe146206791c2697/InstructionMemory.vhd \
-      EN work/InstructionMemory 1492813096
 FL C:/Users/utp/Desktop/firstprocessor-ronaldfelipse-3d3a6448cdfb3922c3d0108afe146206791c2697/multiplexor32.vhd 2017/04/04.17:18:54 P.20131013
-EN work/multiplexor32 1492813104 \
-      FL C:/Users/utp/Desktop/firstprocessor-ronaldfelipse-3d3a6448cdfb3922c3d0108afe146206791c2697/multiplexor32.vhd \
-      PB ieee/std_logic_1164 1381692176
-AR work/multiplexor32/Behavioral 1492813105 \
-      FL C:/Users/utp/Desktop/firstprocessor-ronaldfelipse-3d3a6448cdfb3922c3d0108afe146206791c2697/multiplexor32.vhd \
-      EN work/multiplexor32 1492813104
 FL C:/Users/utp/Desktop/firstprocessor-ronaldfelipse-3d3a6448cdfb3922c3d0108afe146206791c2697/NProgramCounter.vhd 2017/04/04.17:18:54 P.20131013
-EN work/NProgramCounter 1492813090 \
-      FL C:/Users/utp/Desktop/firstprocessor-ronaldfelipse-3d3a6448cdfb3922c3d0108afe146206791c2697/NProgramCounter.vhd \
-      PB ieee/std_logic_1164 1381692176
-AR work/NProgramCounter/Behavioral 1492813091 \
-      FL C:/Users/utp/Desktop/firstprocessor-ronaldfelipse-3d3a6448cdfb3922c3d0108afe146206791c2697/NProgramCounter.vhd \
-      EN work/NProgramCounter 1492813090
 FL C:/Users/utp/Desktop/firstprocessor-ronaldfelipse-3d3a6448cdfb3922c3d0108afe146206791c2697/Procesador.vhd 2017/04/21.17:16:09 P.20131013
-EN work/Procesador 1492813108 \
-      FL C:/Users/utp/Desktop/firstprocessor-ronaldfelipse-3d3a6448cdfb3922c3d0108afe146206791c2697/Procesador.vhd \
-      PB ieee/std_logic_1164 1381692176
-AR work/Procesador/Behavioral 1492813109 \
-      FL C:/Users/utp/Desktop/firstprocessor-ronaldfelipse-3d3a6448cdfb3922c3d0108afe146206791c2697/Procesador.vhd \
-      EN work/Procesador 1492813108 CP PSRM CP PSR CP WindowsManager \
-      CP NProgramCounter CP ProgramCounter CP sumador32 CP InstructionMemory \
-      CP UnidadControl CP RegisterFile CP extensionSigno CP multiplexor32 CP ALU
 FL C:/Users/utp/Desktop/firstprocessor-ronaldfelipse-3d3a6448cdfb3922c3d0108afe146206791c2697/ProgramCounter.vhd 2017/04/04.17:18:54 P.20131013
-EN work/ProgramCounter 1492813092 \
-      FL C:/Users/utp/Desktop/firstprocessor-ronaldfelipse-3d3a6448cdfb3922c3d0108afe146206791c2697/ProgramCounter.vhd \
-      PB ieee/std_logic_1164 1381692176
-AR work/ProgramCounter/Behavioral 1492813093 \
-      FL C:/Users/utp/Desktop/firstprocessor-ronaldfelipse-3d3a6448cdfb3922c3d0108afe146206791c2697/ProgramCounter.vhd \
-      EN work/ProgramCounter 1492813092
 FL C:/Users/utp/Desktop/firstprocessor-ronaldfelipse-3d3a6448cdfb3922c3d0108afe146206791c2697/PSR.vhd 2017/04/21.16:53:54 P.20131013
-EN work/PSR 1492813086 \
-      FL C:/Users/utp/Desktop/firstprocessor-ronaldfelipse-3d3a6448cdfb3922c3d0108afe146206791c2697/PSR.vhd \
-      PB ieee/std_logic_1164 1381692176
-AR work/PSR/Behavioral 1492813087 \
-      FL C:/Users/utp/Desktop/firstprocessor-ronaldfelipse-3d3a6448cdfb3922c3d0108afe146206791c2697/PSR.vhd \
-      EN work/PSR 1492813086
 FL C:/Users/utp/Desktop/firstprocessor-ronaldfelipse-3d3a6448cdfb3922c3d0108afe146206791c2697/PSRM.vhd 2017/04/18.16:40:57 P.20131013
-EN work/PSRM 1492813084 \
-      FL C:/Users/utp/Desktop/firstprocessor-ronaldfelipse-3d3a6448cdfb3922c3d0108afe146206791c2697/PSRM.vhd \
-      PB ieee/std_logic_1164 1381692176
-AR work/PSRM/Behavioral 1492813085 \
-      FL C:/Users/utp/Desktop/firstprocessor-ronaldfelipse-3d3a6448cdfb3922c3d0108afe146206791c2697/PSRM.vhd \
-      EN work/PSRM 1492813084
 FL C:/Users/utp/Desktop/firstprocessor-ronaldfelipse-3d3a6448cdfb3922c3d0108afe146206791c2697/RegisterFile.vhd 2017/04/21.17:17:48 P.20131013
-EN work/RegisterFile 1492813100 \
-      FL C:/Users/utp/Desktop/firstprocessor-ronaldfelipse-3d3a6448cdfb3922c3d0108afe146206791c2697/RegisterFile.vhd \
-      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
-AR work/RegisterFile/Behavioral 1492813101 \
-      FL C:/Users/utp/Desktop/firstprocessor-ronaldfelipse-3d3a6448cdfb3922c3d0108afe146206791c2697/RegisterFile.vhd \
-      EN work/RegisterFile 1492813100
 FL C:/Users/utp/Desktop/firstprocessor-ronaldfelipse-3d3a6448cdfb3922c3d0108afe146206791c2697/sumador32.vhd 2017/04/04.17:18:54 P.20131013
-EN work/sumador32 1492813094 \
-      FL C:/Users/utp/Desktop/firstprocessor-ronaldfelipse-3d3a6448cdfb3922c3d0108afe146206791c2697/sumador32.vhd \
-      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
-AR work/sumador32/Behavioral 1492813095 \
-      FL C:/Users/utp/Desktop/firstprocessor-ronaldfelipse-3d3a6448cdfb3922c3d0108afe146206791c2697/sumador32.vhd \
-      EN work/sumador32 1492813094
 FL C:/Users/utp/Desktop/firstprocessor-ronaldfelipse-3d3a6448cdfb3922c3d0108afe146206791c2697/UnidadControl.vhd 2017/04/18.17:04:18 P.20131013
-EN work/UnidadControl 1492813098 \
-      FL C:/Users/utp/Desktop/firstprocessor-ronaldfelipse-3d3a6448cdfb3922c3d0108afe146206791c2697/UnidadControl.vhd \
-      PB ieee/std_logic_1164 1381692176
-AR work/UnidadControl/Behavioral 1492813099 \
-      FL C:/Users/utp/Desktop/firstprocessor-ronaldfelipse-3d3a6448cdfb3922c3d0108afe146206791c2697/UnidadControl.vhd \
-      EN work/UnidadControl 1492813098
 FL C:/Users/utp/Desktop/firstprocessor-ronaldfelipse-3d3a6448cdfb3922c3d0108afe146206791c2697/WindowsManager.vhd 2017/04/21.17:11:14 P.20131013
-EN work/WindowsManager 1492813088 \
-      FL C:/Users/utp/Desktop/firstprocessor-ronaldfelipse-3d3a6448cdfb3922c3d0108afe146206791c2697/WindowsManager.vhd \
-      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
-      PB ieee/STD_LOGIC_UNSIGNED 1381692179
-AR work/WindowsManager/Behavioral 1492813089 \
-      FL C:/Users/utp/Desktop/firstprocessor-ronaldfelipse-3d3a6448cdfb3922c3d0108afe146206791c2697/WindowsManager.vhd \
-      EN work/WindowsManager 1492813088
