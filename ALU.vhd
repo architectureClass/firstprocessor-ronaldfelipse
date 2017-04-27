@@ -19,6 +19,13 @@ process(dato1Alu,dato2Alu,operacionAlu)
 	   case (operacionAlu) is 
 			when "000000" => 
 				salidaAlu <= dato1Alu + dato2Alu;
+			when "111100" => ---SAVE
+				salidaAlu <= dato1Alu + dato2Alu;
+				
+			when "111101" => --- REstore
+				salidaAlu <= dato1Alu + dato2Alu;
+
+				
 			when "010000" => 
 				salidaAlu <= dato1Alu + dato2Alu;
 			when "000100" => 
