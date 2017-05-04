@@ -1,5 +1,5 @@
-set -tmpdir "C:/Users/cristian b/Downloads/Procesor-4.2/Pull/firstprocessor-ronaldfelipse/xst/projnav.tmp"
-set -xsthdpdir "C:/Users/cristian b/Downloads/Procesor-4.2/Pull/firstprocessor-ronaldfelipse/xst"
+set -tmpdir "C:/Users/cristian b/Desktop/Arquitectura/firstprocessor-ronaldfelipse/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/cristian b/Desktop/Arquitectura/firstprocessor-ronaldfelipse/xst"
 elaborate
 -ifn Procesador.prj
 -ifmt mixed

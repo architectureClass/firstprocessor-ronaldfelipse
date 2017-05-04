@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "C:/Users/utp/Desktop/firstprocessor-ronaldfelipse-3d3a6448cdfb3922c3d0108afe146206791c2697/Procesador.vhd";
+static const char *ng0 = "C:/Users/cristian b/Desktop/Arquitectura/firstprocessor-ronaldfelipse/Procesador.vhd";
 
 
 
@@ -35,11 +35,11 @@ static void work_a_3863512822_3212880686_p_0(char *t0)
     char *t6;
     char *t7;
 
-LAB0:    xsi_set_current_line(241, ng0);
+LAB0:    xsi_set_current_line(237, ng0);
 
 LAB3:    t1 = (t0 + 2472U);
     t2 = *((char **)t1);
-    t1 = (t0 + 6592);
+    t1 = (t0 + 5792);
     t3 = (t1 + 56U);
     t4 = *((char **)t3);
     t5 = (t4 + 56U);
@@ -47,7 +47,7 @@ LAB3:    t1 = (t0 + 2472U);
     memcpy(t6, t2, 32U);
     xsi_driver_first_trans_fast_port(t1);
 
-LAB2:    t7 = (t0 + 6512);
+LAB2:    t7 = (t0 + 5712);
     *((int *)t7) = 1;
 
 LAB1:    return;

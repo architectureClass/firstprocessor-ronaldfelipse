@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "C:/Users/utp/Desktop/firstprocessor-ronaldfelipse-3d3a6448cdfb3922c3d0108afe146206791c2697/PSR.vhd";
+static const char *ng0 = "C:/Users/cristian b/Desktop/Arquitectura/firstprocessor-ronaldfelipse/PSR.vhd";
 extern char *IEEE_P_2592010699;
 
 unsigned char ieee_p_2592010699_sub_1744673427_503743352(char *, char *, unsigned int , unsigned int );
@@ -103,9 +103,9 @@ LAB5:    xsi_set_current_line(26, ng0);
     *((unsigned char *)t8) = t3;
     xsi_driver_first_trans_delta(t1, 31U, 1, 0LL);
     xsi_set_current_line(28, ng0);
-    t1 = (t0 + 1992U);
+    t1 = (t0 + 1512U);
     t2 = *((char **)t1);
-    t10 = (20 - 31);
+    t10 = (0 - 3);
     t11 = (t10 * -1);
     t12 = (1U * t11);
     t13 = (0 + t12);

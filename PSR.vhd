@@ -25,7 +25,7 @@ process(clk,reset)
 			if(rising_edge(clk))then
 				PSRegister(23 downto 20) <= nzvc;
 				PSRegister(0) <= ncwp;
-				salidaPSR <= PSRegister(20);
+				salidaPSR <= nzvc(0);
 				cwp <= ncwp;
 			end if;
 		end if;

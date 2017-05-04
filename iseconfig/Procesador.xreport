@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2017-04-26T20:29:50</DateModified>
+  <DateModified>2017-05-04T18:08:53</DateModified>
   <ModuleName>Procesador</ModuleName>
   <SummaryTimeStamp>2017-04-21T17:09:19</SummaryTimeStamp>
-  <SavedFilePath>C:/Users/cristian b/Downloads/Procesor-4.2/Pull/firstprocessor-ronaldfelipse/iseconfig/Procesador.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Users/cristian b/Downloads/Procesor-4.2/Pull/firstprocessor-ronaldfelipse\</ImplementationReportsDirectory>
+  <SavedFilePath>C:/Users/cristian b/Desktop/Arquitectura/firstprocessor-ronaldfelipse/iseconfig/Procesador.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>C:/Users/cristian b/Desktop/Arquitectura/firstprocessor-ronaldfelipse\</ImplementationReportsDirectory>
   <DateInitialized>2016-10-09T14:58:17</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

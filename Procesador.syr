@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.09 secs
+Total CPU time to Xst completion: 0.06 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.09 secs
+Total CPU time to Xst completion: 0.08 secs
  
 --> Reading design: Procesador.prj
 
@@ -104,31 +104,31 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Compilation                              *
 =========================================================================
-Compiling vhdl file "C:/Users/cristian b/Downloads/Procesor-4.2/Pull/firstprocessor-ronaldfelipse/PSRM.vhd" in Library work.
+Compiling vhdl file "C:/Users/cristian b/Desktop/Arquitectura/firstprocessor-ronaldfelipse/PSRM.vhd" in Library work.
 Architecture behavioral of Entity psrm is up to date.
-Compiling vhdl file "C:/Users/cristian b/Downloads/Procesor-4.2/Pull/firstprocessor-ronaldfelipse/PSR.vhd" in Library work.
+Compiling vhdl file "C:/Users/cristian b/Desktop/Arquitectura/firstprocessor-ronaldfelipse/PSR.vhd" in Library work.
 Architecture behavioral of Entity psr is up to date.
-Compiling vhdl file "C:/Users/cristian b/Downloads/Procesor-4.2/Pull/firstprocessor-ronaldfelipse/WindowsManager.vhd" in Library work.
+Compiling vhdl file "C:/Users/cristian b/Desktop/Arquitectura/firstprocessor-ronaldfelipse/WindowsManager.vhd" in Library work.
 Architecture behavioral of Entity windowsmanager is up to date.
-Compiling vhdl file "C:/Users/cristian b/Downloads/Procesor-4.2/Pull/firstprocessor-ronaldfelipse/NProgramCounter.vhd" in Library work.
+Compiling vhdl file "C:/Users/cristian b/Desktop/Arquitectura/firstprocessor-ronaldfelipse/NProgramCounter.vhd" in Library work.
 Architecture behavioral of Entity nprogramcounter is up to date.
-Compiling vhdl file "C:/Users/cristian b/Downloads/Procesor-4.2/Pull/firstprocessor-ronaldfelipse/ProgramCounter.vhd" in Library work.
+Compiling vhdl file "C:/Users/cristian b/Desktop/Arquitectura/firstprocessor-ronaldfelipse/ProgramCounter.vhd" in Library work.
 Architecture behavioral of Entity programcounter is up to date.
-Compiling vhdl file "C:/Users/cristian b/Downloads/Procesor-4.2/Pull/firstprocessor-ronaldfelipse/sumador32.vhd" in Library work.
+Compiling vhdl file "C:/Users/cristian b/Desktop/Arquitectura/firstprocessor-ronaldfelipse/sumador32.vhd" in Library work.
 Architecture behavioral of Entity sumador32 is up to date.
-Compiling vhdl file "C:/Users/cristian b/Downloads/Procesor-4.2/Pull/firstprocessor-ronaldfelipse/InstructionMemory.vhd" in Library work.
+Compiling vhdl file "C:/Users/cristian b/Desktop/Arquitectura/firstprocessor-ronaldfelipse/InstructionMemory.vhd" in Library work.
 Architecture behavioral of Entity instructionmemory is up to date.
-Compiling vhdl file "C:/Users/cristian b/Downloads/Procesor-4.2/Pull/firstprocessor-ronaldfelipse/UnidadControl.vhd" in Library work.
+Compiling vhdl file "C:/Users/cristian b/Desktop/Arquitectura/firstprocessor-ronaldfelipse/UnidadControl.vhd" in Library work.
 Architecture behavioral of Entity unidadcontrol is up to date.
-Compiling vhdl file "C:/Users/cristian b/Downloads/Procesor-4.2/Pull/firstprocessor-ronaldfelipse/RegisterFile.vhd" in Library work.
+Compiling vhdl file "C:/Users/cristian b/Desktop/Arquitectura/firstprocessor-ronaldfelipse/RegisterFile.vhd" in Library work.
 Architecture behavioral of Entity registerfile is up to date.
-Compiling vhdl file "C:/Users/cristian b/Downloads/Procesor-4.2/Pull/firstprocessor-ronaldfelipse/extensionSigno.vhd" in Library work.
+Compiling vhdl file "C:/Users/cristian b/Desktop/Arquitectura/firstprocessor-ronaldfelipse/extensionSigno.vhd" in Library work.
 Architecture behavioral of Entity extensionsigno is up to date.
-Compiling vhdl file "C:/Users/cristian b/Downloads/Procesor-4.2/Pull/firstprocessor-ronaldfelipse/multiplexor32.vhd" in Library work.
+Compiling vhdl file "C:/Users/cristian b/Desktop/Arquitectura/firstprocessor-ronaldfelipse/multiplexor32.vhd" in Library work.
 Architecture behavioral of Entity multiplexor32 is up to date.
-Compiling vhdl file "C:/Users/cristian b/Downloads/Procesor-4.2/Pull/firstprocessor-ronaldfelipse/ALU.vhd" in Library work.
+Compiling vhdl file "C:/Users/cristian b/Desktop/Arquitectura/firstprocessor-ronaldfelipse/ALU.vhd" in Library work.
 Architecture behavioral of Entity alu is up to date.
-Compiling vhdl file "C:/Users/cristian b/Downloads/Procesor-4.2/Pull/firstprocessor-ronaldfelipse/Procesador.vhd" in Library work.
+Compiling vhdl file "C:/Users/cristian b/Desktop/Arquitectura/firstprocessor-ronaldfelipse/Procesador.vhd" in Library work.
 Architecture behavioral of Entity procesador is up to date.
 
 =========================================================================
@@ -168,7 +168,7 @@ Analyzing Entity <Procesador> in library <work> (Architecture <behavioral>).
 Entity <Procesador> analyzed. Unit <Procesador> generated.
 
 Analyzing Entity <PSRM> in library <work> (Architecture <behavioral>).
-WARNING:Xst:819 - "C:/Users/cristian b/Downloads/Procesor-4.2/Pull/firstprocessor-ronaldfelipse/PSRM.vhd" line 46: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+WARNING:Xst:819 - "C:/Users/cristian b/Desktop/Arquitectura/firstprocessor-ronaldfelipse/PSRM.vhd" line 46: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
    <OP>
 Entity <PSRM> analyzed. Unit <PSRM> generated.
 
@@ -194,9 +194,9 @@ Analyzing Entity <UnidadControl> in library <work> (Architecture <behavioral>).
 Entity <UnidadControl> analyzed. Unit <UnidadControl> generated.
 
 Analyzing Entity <RegisterFile> in library <work> (Architecture <behavioral>).
-WARNING:Xst:790 - "C:/Users/cristian b/Downloads/Procesor-4.2/Pull/firstprocessor-ronaldfelipse/RegisterFile.vhd" line 32: Index value(s) does not match array range, simulation mismatch.
-WARNING:Xst:790 - "C:/Users/cristian b/Downloads/Procesor-4.2/Pull/firstprocessor-ronaldfelipse/RegisterFile.vhd" line 33: Index value(s) does not match array range, simulation mismatch.
-WARNING:Xst:790 - "C:/Users/cristian b/Downloads/Procesor-4.2/Pull/firstprocessor-ronaldfelipse/RegisterFile.vhd" line 35: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/cristian b/Desktop/Arquitectura/firstprocessor-ronaldfelipse/RegisterFile.vhd" line 32: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/cristian b/Desktop/Arquitectura/firstprocessor-ronaldfelipse/RegisterFile.vhd" line 33: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/cristian b/Desktop/Arquitectura/firstprocessor-ronaldfelipse/RegisterFile.vhd" line 35: Index value(s) does not match array range, simulation mismatch.
 Entity <RegisterFile> analyzed. Unit <RegisterFile> generated.
 
 Analyzing Entity <extensionSigno> in library <work> (Architecture <behavioral>).
@@ -206,7 +206,7 @@ Analyzing Entity <multiplexor32> in library <work> (Architecture <behavioral>).
 Entity <multiplexor32> analyzed. Unit <multiplexor32> generated.
 
 Analyzing Entity <ALU> in library <work> (Architecture <behavioral>).
-WARNING:Xst:819 - "C:/Users/cristian b/Downloads/Procesor-4.2/Pull/firstprocessor-ronaldfelipse/ALU.vhd" line 17: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+WARNING:Xst:819 - "C:/Users/cristian b/Desktop/Arquitectura/firstprocessor-ronaldfelipse/ALU.vhd" line 17: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
    <carry>
 Entity <ALU> analyzed. Unit <ALU> generated.
 
@@ -218,7 +218,7 @@ Entity <ALU> analyzed. Unit <ALU> generated.
 Performing bidirectional port resolution...
 
 Synthesizing Unit <PSRM>.
-    Related source file is "C:/Users/cristian b/Downloads/Procesor-4.2/Pull/firstprocessor-ronaldfelipse/PSRM.vhd".
+    Related source file is "C:/Users/cristian b/Desktop/Arquitectura/firstprocessor-ronaldfelipse/PSRM.vhd".
 WARNING:Xst:737 - Found 1-bit latch for signal <nzvc_0>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 WARNING:Xst:737 - Found 1-bit latch for signal <nzvc_1>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 WARNING:Xst:737 - Found 1-bit latch for signal <nzvc_2>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
@@ -227,21 +227,20 @@ Unit <PSRM> synthesized.
 
 
 Synthesizing Unit <PSR>.
-    Related source file is "C:/Users/cristian b/Downloads/Procesor-4.2/Pull/firstprocessor-ronaldfelipse/PSR.vhd".
+    Related source file is "C:/Users/cristian b/Desktop/Arquitectura/firstprocessor-ronaldfelipse/PSR.vhd".
 WARNING:Xst:1780 - Signal <PSRegister<31:24>> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
-WARNING:Xst:646 - Signal <PSRegister<23:21>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <PSRegister<23:20>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
 WARNING:Xst:1780 - Signal <PSRegister<19:1>> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
 WARNING:Xst:646 - Signal <PSRegister<0>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
     Found 1-bit register for signal <cwp>.
     Found 1-bit register for signal <salidaPSR>.
-    Found 1-bit register for signal <PSRegister<20>>.
     Summary:
-	inferred   3 D-type flip-flop(s).
+	inferred   2 D-type flip-flop(s).
 Unit <PSR> synthesized.
 
 
 Synthesizing Unit <WindowsManager>.
-    Related source file is "C:/Users/cristian b/Downloads/Procesor-4.2/Pull/firstprocessor-ronaldfelipse/WindowsManager.vhd".
+    Related source file is "C:/Users/cristian b/Desktop/Arquitectura/firstprocessor-ronaldfelipse/WindowsManager.vhd".
 WARNING:Xst:737 - Found 6-bit latch for signal <Rs2Integer>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 WARNING:Xst:737 - Found 6-bit latch for signal <Rs1Integer>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 WARNING:Xst:737 - Found 6-bit latch for signal <RdInteger>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
@@ -278,7 +277,7 @@ Unit <WindowsManager> synthesized.
 
 
 Synthesizing Unit <NProgramCounter>.
-    Related source file is "C:/Users/cristian b/Downloads/Procesor-4.2/Pull/firstprocessor-ronaldfelipse/NProgramCounter.vhd".
+    Related source file is "C:/Users/cristian b/Desktop/Arquitectura/firstprocessor-ronaldfelipse/NProgramCounter.vhd".
     Found 32-bit register for signal <salidaNProgramCounter>.
     Summary:
 	inferred  32 D-type flip-flop(s).
@@ -286,7 +285,7 @@ Unit <NProgramCounter> synthesized.
 
 
 Synthesizing Unit <ProgramCounter>.
-    Related source file is "C:/Users/cristian b/Downloads/Procesor-4.2/Pull/firstprocessor-ronaldfelipse/ProgramCounter.vhd".
+    Related source file is "C:/Users/cristian b/Desktop/Arquitectura/firstprocessor-ronaldfelipse/ProgramCounter.vhd".
     Found 32-bit register for signal <pc_salida>.
     Summary:
 	inferred  32 D-type flip-flop(s).
@@ -294,7 +293,7 @@ Unit <ProgramCounter> synthesized.
 
 
 Synthesizing Unit <sumador32>.
-    Related source file is "C:/Users/cristian b/Downloads/Procesor-4.2/Pull/firstprocessor-ronaldfelipse/sumador32.vhd".
+    Related source file is "C:/Users/cristian b/Desktop/Arquitectura/firstprocessor-ronaldfelipse/sumador32.vhd".
     Found 32-bit adder for signal <salidaSumador>.
     Summary:
 	inferred   1 Adder/Subtractor(s).
@@ -302,20 +301,20 @@ Unit <sumador32> synthesized.
 
 
 Synthesizing Unit <InstructionMemory>.
-    Related source file is "C:/Users/cristian b/Downloads/Procesor-4.2/Pull/firstprocessor-ronaldfelipse/InstructionMemory.vhd".
+    Related source file is "C:/Users/cristian b/Desktop/Arquitectura/firstprocessor-ronaldfelipse/InstructionMemory.vhd".
 WARNING:Xst:647 - Input <address<4:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:1781 - Signal <instructions> is used but never assigned. Tied to default value.
 Unit <InstructionMemory> synthesized.
 
 
 Synthesizing Unit <UnidadControl>.
-    Related source file is "C:/Users/cristian b/Downloads/Procesor-4.2/Pull/firstprocessor-ronaldfelipse/UnidadControl.vhd".
+    Related source file is "C:/Users/cristian b/Desktop/Arquitectura/firstprocessor-ronaldfelipse/UnidadControl.vhd".
 WARNING:Xst:737 - Found 6-bit latch for signal <salidaUnidadControl>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 Unit <UnidadControl> synthesized.
 
 
 Synthesizing Unit <RegisterFile>.
-    Related source file is "C:/Users/cristian b/Downloads/Procesor-4.2/Pull/firstprocessor-ronaldfelipse/RegisterFile.vhd".
+    Related source file is "C:/Users/cristian b/Desktop/Arquitectura/firstprocessor-ronaldfelipse/RegisterFile.vhd".
 WARNING:Xst:737 - Found 32-bit latch for signal <registro_11>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 WARNING:Xst:737 - Found 32-bit latch for signal <registro_12>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 WARNING:Xst:737 - Found 32-bit latch for signal <registro_13>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
@@ -363,28 +362,28 @@ Unit <RegisterFile> synthesized.
 
 
 Synthesizing Unit <extensionSigno>.
-    Related source file is "C:/Users/cristian b/Downloads/Procesor-4.2/Pull/firstprocessor-ronaldfelipse/extensionSigno.vhd".
+    Related source file is "C:/Users/cristian b/Desktop/Arquitectura/firstprocessor-ronaldfelipse/extensionSigno.vhd".
 Unit <extensionSigno> synthesized.
 
 
 Synthesizing Unit <multiplexor32>.
-    Related source file is "C:/Users/cristian b/Downloads/Procesor-4.2/Pull/firstprocessor-ronaldfelipse/multiplexor32.vhd".
+    Related source file is "C:/Users/cristian b/Desktop/Arquitectura/firstprocessor-ronaldfelipse/multiplexor32.vhd".
 Unit <multiplexor32> synthesized.
 
 
 Synthesizing Unit <ALU>.
-    Related source file is "C:/Users/cristian b/Downloads/Procesor-4.2/Pull/firstprocessor-ronaldfelipse/ALU.vhd".
+    Related source file is "C:/Users/cristian b/Desktop/Arquitectura/firstprocessor-ronaldfelipse/ALU.vhd".
     Found 32-bit adder carry in for signal <salidaAlu$addsub0000>.
-    Found 32-bit subtractor for signal <salidaAlu$addsub0001> created at line 25.
-    Found 32-bit subtractor for signal <salidaAlu$addsub0002> created at line 66.
-    Found 32-bit xor2 for signal <salidaAlu$xor0000> created at line 52.
+    Found 32-bit subtractor for signal <salidaAlu$addsub0001> created at line 32.
+    Found 32-bit subtractor for signal <salidaAlu$addsub0002> created at line 73.
+    Found 32-bit xor2 for signal <salidaAlu$xor0000> created at line 59.
     Summary:
 	inferred   3 Adder/Subtractor(s).
 Unit <ALU> synthesized.
 
 
 Synthesizing Unit <Procesador>.
-    Related source file is "C:/Users/cristian b/Downloads/Procesor-4.2/Pull/firstprocessor-ronaldfelipse/Procesador.vhd".
+    Related source file is "C:/Users/cristian b/Desktop/Arquitectura/firstprocessor-ronaldfelipse/Procesador.vhd".
 Unit <Procesador> synthesized.
 
 INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
@@ -399,8 +398,8 @@ Macro Statistics
  32-bit subtractor                                     : 2
  5-bit adder carry out                                 : 3
  6-bit subtractor                                      : 3
-# Registers                                            : 5
- 1-bit register                                        : 3
+# Registers                                            : 4
+ 1-bit register                                        : 2
  32-bit register                                       : 2
 # Latches                                              : 48
  1-bit latch                                           : 5
@@ -457,8 +456,8 @@ Macro Statistics
  32-bit subtractor                                     : 2
  5-bit adder carry out                                 : 3
  6-bit subtractor                                      : 3
-# Registers                                            : 67
- Flip-Flops                                            : 67
+# Registers                                            : 66
+ Flip-Flops                                            : 66
 # Latches                                              : 48
  1-bit latch                                           : 5
  32-bit latch                                          : 39
@@ -1453,7 +1452,7 @@ WARNING:Xst:2677 - Node <Inst_PC/pc_salida_0> of sequential type is unconnected 
 Mapping all equations...
 Building and optimizing final netlist ...
 INFO:Xst:2261 - The FF/Latch <Inst_WM/Rs2Integer_2> in Unit <Procesador> is equivalent to the following FF/Latch, which will be removed : <Inst_WM/Rs2Integer_0> 
-Found area constraint ratio of 100 (+ 5) on block Procesador, actual ratio is 72.
+Found area constraint ratio of 100 (+ 5) on block Procesador, actual ratio is 64.
 WARNING:Xst:1898 - Due to constant pushing, FF/Latch <Inst_RF/registro_32_31> is unconnected in block <Procesador>.
 WARNING:Xst:1898 - Due to constant pushing, FF/Latch <Inst_RF/registro_33_31> is unconnected in block <Procesador>.
 WARNING:Xst:1898 - Due to constant pushing, FF/Latch <Inst_RF/registro_34_31> is unconnected in block <Procesador>.
@@ -1480,6 +1479,10 @@ WARNING:Xst:2677 - Node <Inst_RF/registro_32_12> of sequential type is unconnect
 WARNING:Xst:2677 - Node <Inst_RF/registro_32_11> of sequential type is unconnected in block <Procesador>.
 WARNING:Xst:2677 - Node <Inst_RF/registro_32_10> of sequential type is unconnected in block <Procesador>.
 WARNING:Xst:2677 - Node <Inst_RF/registro_32_9> of sequential type is unconnected in block <Procesador>.
+WARNING:Xst:2677 - Node <Inst_RF/registro_32_6> of sequential type is unconnected in block <Procesador>.
+WARNING:Xst:2677 - Node <Inst_RF/registro_32_5> of sequential type is unconnected in block <Procesador>.
+WARNING:Xst:2677 - Node <Inst_RF/registro_32_4> of sequential type is unconnected in block <Procesador>.
+WARNING:Xst:2677 - Node <Inst_RF/registro_32_2> of sequential type is unconnected in block <Procesador>.
 WARNING:Xst:2677 - Node <Inst_RF/registro_32_0> of sequential type is unconnected in block <Procesador>.
 WARNING:Xst:2677 - Node <Inst_RF/registro_33_30> of sequential type is unconnected in block <Procesador>.
 WARNING:Xst:2677 - Node <Inst_RF/registro_33_29> of sequential type is unconnected in block <Procesador>.
@@ -1503,6 +1506,10 @@ WARNING:Xst:2677 - Node <Inst_RF/registro_33_12> of sequential type is unconnect
 WARNING:Xst:2677 - Node <Inst_RF/registro_33_11> of sequential type is unconnected in block <Procesador>.
 WARNING:Xst:2677 - Node <Inst_RF/registro_33_10> of sequential type is unconnected in block <Procesador>.
 WARNING:Xst:2677 - Node <Inst_RF/registro_33_9> of sequential type is unconnected in block <Procesador>.
+WARNING:Xst:2677 - Node <Inst_RF/registro_33_6> of sequential type is unconnected in block <Procesador>.
+WARNING:Xst:2677 - Node <Inst_RF/registro_33_5> of sequential type is unconnected in block <Procesador>.
+WARNING:Xst:2677 - Node <Inst_RF/registro_33_4> of sequential type is unconnected in block <Procesador>.
+WARNING:Xst:2677 - Node <Inst_RF/registro_33_2> of sequential type is unconnected in block <Procesador>.
 WARNING:Xst:2677 - Node <Inst_RF/registro_33_0> of sequential type is unconnected in block <Procesador>.
 WARNING:Xst:2677 - Node <Inst_RF/registro_34_30> of sequential type is unconnected in block <Procesador>.
 WARNING:Xst:2677 - Node <Inst_RF/registro_34_29> of sequential type is unconnected in block <Procesador>.
@@ -1526,6 +1533,10 @@ WARNING:Xst:2677 - Node <Inst_RF/registro_34_12> of sequential type is unconnect
 WARNING:Xst:2677 - Node <Inst_RF/registro_34_11> of sequential type is unconnected in block <Procesador>.
 WARNING:Xst:2677 - Node <Inst_RF/registro_34_10> of sequential type is unconnected in block <Procesador>.
 WARNING:Xst:2677 - Node <Inst_RF/registro_34_9> of sequential type is unconnected in block <Procesador>.
+WARNING:Xst:2677 - Node <Inst_RF/registro_34_6> of sequential type is unconnected in block <Procesador>.
+WARNING:Xst:2677 - Node <Inst_RF/registro_34_5> of sequential type is unconnected in block <Procesador>.
+WARNING:Xst:2677 - Node <Inst_RF/registro_34_4> of sequential type is unconnected in block <Procesador>.
+WARNING:Xst:2677 - Node <Inst_RF/registro_34_2> of sequential type is unconnected in block <Procesador>.
 WARNING:Xst:2677 - Node <Inst_RF/registro_34_0> of sequential type is unconnected in block <Procesador>.
 WARNING:Xst:2677 - Node <Inst_RF/registro_35_30> of sequential type is unconnected in block <Procesador>.
 WARNING:Xst:2677 - Node <Inst_RF/registro_35_29> of sequential type is unconnected in block <Procesador>.
@@ -1549,37 +1560,27 @@ WARNING:Xst:2677 - Node <Inst_RF/registro_35_12> of sequential type is unconnect
 WARNING:Xst:2677 - Node <Inst_RF/registro_35_11> of sequential type is unconnected in block <Procesador>.
 WARNING:Xst:2677 - Node <Inst_RF/registro_35_10> of sequential type is unconnected in block <Procesador>.
 WARNING:Xst:2677 - Node <Inst_RF/registro_35_9> of sequential type is unconnected in block <Procesador>.
-WARNING:Xst:2677 - Node <Inst_RF/registro_35_0> of sequential type is unconnected in block <Procesador>.
-WARNING:Xst:2677 - Node <Inst_RF/registro_17_3> of sequential type is unconnected in block <Procesador>.
-WARNING:Xst:2677 - Node <Inst_RF/registro_17_1> of sequential type is unconnected in block <Procesador>.
-WARNING:Xst:2677 - Node <Inst_RF/registro_19_3> of sequential type is unconnected in block <Procesador>.
-WARNING:Xst:2677 - Node <Inst_RF/registro_19_1> of sequential type is unconnected in block <Procesador>.
-WARNING:Xst:2677 - Node <Inst_RF/registro_32_8> of sequential type is unconnected in block <Procesador>.
-WARNING:Xst:2677 - Node <Inst_RF/registro_32_7> of sequential type is unconnected in block <Procesador>.
-WARNING:Xst:2677 - Node <Inst_RF/registro_32_6> of sequential type is unconnected in block <Procesador>.
-WARNING:Xst:2677 - Node <Inst_RF/registro_32_5> of sequential type is unconnected in block <Procesador>.
-WARNING:Xst:2677 - Node <Inst_RF/registro_32_3> of sequential type is unconnected in block <Procesador>.
-WARNING:Xst:2677 - Node <Inst_RF/registro_32_1> of sequential type is unconnected in block <Procesador>.
-WARNING:Xst:2677 - Node <Inst_RF/registro_33_8> of sequential type is unconnected in block <Procesador>.
-WARNING:Xst:2677 - Node <Inst_RF/registro_33_7> of sequential type is unconnected in block <Procesador>.
-WARNING:Xst:2677 - Node <Inst_RF/registro_33_6> of sequential type is unconnected in block <Procesador>.
-WARNING:Xst:2677 - Node <Inst_RF/registro_33_5> of sequential type is unconnected in block <Procesador>.
-WARNING:Xst:2677 - Node <Inst_RF/registro_33_3> of sequential type is unconnected in block <Procesador>.
-WARNING:Xst:2677 - Node <Inst_RF/registro_33_1> of sequential type is unconnected in block <Procesador>.
-WARNING:Xst:2677 - Node <Inst_RF/registro_34_8> of sequential type is unconnected in block <Procesador>.
-WARNING:Xst:2677 - Node <Inst_RF/registro_34_7> of sequential type is unconnected in block <Procesador>.
-WARNING:Xst:2677 - Node <Inst_RF/registro_34_6> of sequential type is unconnected in block <Procesador>.
-WARNING:Xst:2677 - Node <Inst_RF/registro_34_5> of sequential type is unconnected in block <Procesador>.
-WARNING:Xst:2677 - Node <Inst_RF/registro_34_3> of sequential type is unconnected in block <Procesador>.
-WARNING:Xst:2677 - Node <Inst_RF/registro_34_1> of sequential type is unconnected in block <Procesador>.
-WARNING:Xst:2677 - Node <Inst_RF/registro_35_8> of sequential type is unconnected in block <Procesador>.
-WARNING:Xst:2677 - Node <Inst_RF/registro_35_7> of sequential type is unconnected in block <Procesador>.
 WARNING:Xst:2677 - Node <Inst_RF/registro_35_6> of sequential type is unconnected in block <Procesador>.
 WARNING:Xst:2677 - Node <Inst_RF/registro_35_5> of sequential type is unconnected in block <Procesador>.
+WARNING:Xst:2677 - Node <Inst_RF/registro_35_4> of sequential type is unconnected in block <Procesador>.
+WARNING:Xst:2677 - Node <Inst_RF/registro_35_2> of sequential type is unconnected in block <Procesador>.
+WARNING:Xst:2677 - Node <Inst_RF/registro_35_0> of sequential type is unconnected in block <Procesador>.
+WARNING:Xst:2677 - Node <Inst_RF/registro_32_8> of sequential type is unconnected in block <Procesador>.
+WARNING:Xst:2677 - Node <Inst_RF/registro_32_7> of sequential type is unconnected in block <Procesador>.
+WARNING:Xst:2677 - Node <Inst_RF/registro_33_8> of sequential type is unconnected in block <Procesador>.
+WARNING:Xst:2677 - Node <Inst_RF/registro_33_7> of sequential type is unconnected in block <Procesador>.
+WARNING:Xst:2677 - Node <Inst_RF/registro_34_8> of sequential type is unconnected in block <Procesador>.
+WARNING:Xst:2677 - Node <Inst_RF/registro_34_7> of sequential type is unconnected in block <Procesador>.
+WARNING:Xst:2677 - Node <Inst_RF/registro_35_8> of sequential type is unconnected in block <Procesador>.
+WARNING:Xst:2677 - Node <Inst_RF/registro_35_7> of sequential type is unconnected in block <Procesador>.
+WARNING:Xst:2677 - Node <Inst_RF/registro_32_3> of sequential type is unconnected in block <Procesador>.
+WARNING:Xst:2677 - Node <Inst_RF/registro_32_1> of sequential type is unconnected in block <Procesador>.
+WARNING:Xst:2677 - Node <Inst_RF/registro_33_3> of sequential type is unconnected in block <Procesador>.
+WARNING:Xst:2677 - Node <Inst_RF/registro_33_1> of sequential type is unconnected in block <Procesador>.
+WARNING:Xst:2677 - Node <Inst_RF/registro_34_3> of sequential type is unconnected in block <Procesador>.
+WARNING:Xst:2677 - Node <Inst_RF/registro_34_1> of sequential type is unconnected in block <Procesador>.
 WARNING:Xst:2677 - Node <Inst_RF/registro_35_3> of sequential type is unconnected in block <Procesador>.
 WARNING:Xst:2677 - Node <Inst_RF/registro_35_1> of sequential type is unconnected in block <Procesador>.
-WARNING:Xst:2677 - Node <Inst_RF/registro_3_3> of sequential type is unconnected in block <Procesador>.
-WARNING:Xst:2677 - Node <Inst_RF/registro_3_1> of sequential type is unconnected in block <Procesador>.
 
 Final Macro Processing ...
 
@@ -1587,8 +1588,8 @@ Final Macro Processing ...
 Final Register Report
 
 Macro Statistics
-# Registers                                            : 15
- Flip-Flops                                            : 15
+# Registers                                            : 14
+ Flip-Flops                                            : 14
 
 =========================================================================
 
@@ -1617,30 +1618,28 @@ Design Statistics
 # IOs                              : 34
 
 Cell Usage :
-# BELS                             : 1120
+# BELS                             : 1117
 #      GND                         : 1
-#      INV                         : 2
+#      INV                         : 1
 #      LUT1                        : 51
-#      LUT2                        : 29
-#      LUT2_L                      : 4
-#      LUT3                        : 303
-#      LUT3_L                      : 16
-#      LUT4                        : 236
-#      LUT4_D                      : 11
-#      LUT4_L                      : 32
+#      LUT2                        : 20
+#      LUT3                        : 308
+#      LUT3_L                      : 24
+#      LUT4                        : 209
+#      LUT4_D                      : 26
+#      LUT4_L                      : 48
 #      MUXCY                       : 67
-#      MUXF5                       : 161
-#      MUXF6                       : 76
-#      MUXF7                       : 30
+#      MUXF5                       : 151
+#      MUXF6                       : 78
+#      MUXF7                       : 32
 #      MUXF8                       : 30
 #      VCC                         : 1
 #      XORCY                       : 70
-# FlipFlops/Latches                : 257
+# FlipFlops/Latches                : 254
 #      FDC                         : 14
-#      FDE                         : 1
 #      LD                          : 6
 #      LDC                         : 1
-#      LDCE                        : 226
+#      LDCE                        : 224
 #      LDCP                        : 9
 # Clock Buffers                    : 2
 #      BUFG                        : 1
@@ -1655,9 +1654,9 @@ Device utilization summary:
 
 Selected Device : 3s100evq100-5 
 
- Number of Slices:                      428  out of    960    44%  
- Number of Slice Flip Flops:            257  out of   1920    13%  
- Number of 4 input LUTs:                684  out of   1920    35%  
+ Number of Slices:                      424  out of    960    44%  
+ Number of Slice Flip Flops:            254  out of   1920    13%  
+ Number of 4 input LUTs:                687  out of   1920    35%  
  Number of IOs:                          34
  Number of bonded IOBs:                  34  out of     66    51%  
  Number of GCLKs:                         2  out of     24     8%  
@@ -1683,13 +1682,13 @@ Clock Information:
 ---------------------------------------------------------------+---------------------------------------+-------+
 Clock Signal                                                   | Clock buffer(FF name)                 | Load  |
 ---------------------------------------------------------------+---------------------------------------+-------+
-clk                                                            | BUFGP                                 | 15    |
+clk                                                            | BUFGP                                 | 14    |
 IM_out<31>(Inst_IM/outInstruction<31>1:O)                      | NONE(*)(Inst_CU/salidaUnidadControl_5)| 6     |
 Inst_WM/Rs2Integer_cmp_le0000(Inst_WM/Rs2Integer_cmp_le00001:O)| NONE(*)(Inst_WM/Rs2Integer_4)         | 4     |
 N1                                                             | NONE(Inst_WM/Rs1Integer_0)            | 1     |
 Inst_WM/RdInteger_cmp_le0000(Inst_WM/RdInteger_cmp_le00001:O)  | NONE(*)(Inst_WM/RdInteger_5)          | 4     |
 Inst_WM/ncwp_signal_not0001(Inst_WM/ncwp_signal_not00011:O)    | NONE(*)(Inst_WM/ncwp_signal)          | 1     |
-Inst_RF/registro_11_not00001(Inst_RF/registro_11_not00001:O)   | BUFG(*)(Inst_RF/registro_16_31)       | 226   |
+Inst_RF/registro_11_not00001(Inst_RF/registro_11_not00001:O)   | BUFG(*)(Inst_RF/registro_16_31)       | 224   |
 ---------------------------------------------------------------+---------------------------------------+-------+
 (*) These 5 clock signal(s) are generated by combinatorial logic,
 and XST is not able to identify which are the primary clock signals.
@@ -1701,8 +1700,8 @@ Asynchronous Control Signals Information:
 ----------------------------------------------------------------+---------------------------+-------+
 Control Signal                                                  | Buffer(FF name)           | Load  |
 ----------------------------------------------------------------+---------------------------+-------+
-reset                                                           | IBUF                      | 241   |
-Inst_ALU/salidaAlu<0>555(XST_GND:G)                             | NONE(Inst_WM/Rs1Integer_0)| 5     |
+reset                                                           | IBUF                      | 239   |
+Inst_RF/Mmux__varindex0000_10(XST_GND:G)                        | NONE(Inst_WM/Rs1Integer_0)| 5     |
 IM_out<3>(Inst_IM/outInstruction<3>1:O)                         | NONE(Inst_WM/Rs2Integer_1)| 3     |
 Inst_WM/RdInteger_4__and0000(Inst_WM/RdInteger_4__and000011:O)  | NONE(Inst_WM/RdInteger_4) | 2     |
 Inst_WM/RdInteger_4__and0001(Inst_WM/RdInteger_4__and000111:O)  | NONE(Inst_WM/RdInteger_4) | 2     |
@@ -1718,19 +1717,77 @@ Timing Summary:
 ---------------
 Speed Grade: -5
 
-   Minimum period: 9.996ns (Maximum Frequency: 100.041MHz)
-   Minimum input arrival time before clock: 14.100ns
-   Maximum output required time after clock: 15.153ns
-   Maximum combinational path delay: 16.386ns
+   Minimum period: 10.023ns (Maximum Frequency: 99.772MHz)
+   Minimum input arrival time before clock: 14.102ns
+   Maximum output required time after clock: 15.146ns
+   Maximum combinational path delay: 16.388ns
 
 Timing Detail:
 --------------
 All values displayed in nanoseconds (ns)
 
 =========================================================================
+Timing constraint: Default period analysis for Clock 'IM_out<31>'
+  Clock period: 8.913ns (frequency: 112.193MHz)
+  Total number of paths / destination ports: 54 / 1
+-------------------------------------------------------------------------
+Delay:               8.913ns (Levels of Logic = 37)
+  Source:            Inst_CU/salidaUnidadControl_5 (LATCH)
+  Destination:       Inst_PSRM/nzvc_0 (LATCH)
+  Source Clock:      IM_out<31> falling
+  Destination Clock: IM_out<31> falling
+
+  Data Path: Inst_CU/salidaUnidadControl_5 to Inst_PSRM/nzvc_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LD:G->Q              23   0.588   1.025  Inst_CU/salidaUnidadControl_5 (Inst_CU/salidaUnidadControl_5)
+     LUT4_L:I3->LO         1   0.612   0.130  Inst_ALU/salidaAlu_mux0002_SW0 (N29)
+     LUT3:I2->O            1   0.612   0.357  Inst_ALU/salidaAlu_mux0002 (Inst_ALU/salidaAlu_mux0002)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<0> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<0>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<1> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<1>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<2> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<2>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<3> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<3>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<4> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<4>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<5> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<5>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<6> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<6>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<7> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<7>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<8> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<8>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<9> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<9>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<10> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<10>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<11> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<11>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<12> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<12>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<13> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<13>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<14> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<14>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<15> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<15>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<16> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<16>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<17> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<17>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<18> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<18>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<19> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<19>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<20> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<20>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<21> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<21>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<22> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<22>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<23> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<23>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<24> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<24>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<25> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<25>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<26> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<26>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<27> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<27>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<28> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<28>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<29> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<29>)
+     MUXCY:CI->O           0   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<30> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<30>)
+     XORCY:CI->O           1   0.699   0.387  Inst_ALU/Madd_salidaAlu_addsub0000_xor<31> (Inst_ALU/salidaAlu_addsub0000<31>)
+     LUT3_L:I2->LO         1   0.612   0.103  Inst_ALU/salidaAlu<31>81 (Inst_ALU/salidaAlu<31>81)
+     LUT4:I3->O            9   0.612   0.700  Inst_ALU/salidaAlu<31>84 (salidaAlu_31_OBUF)
+     LUT4:I3->O            1   0.612   0.000  Inst_PSRM/nzvc_0_mux0004105 (Inst_PSRM/nzvc_0_mux0004)
+     LDC:D                     0.268          Inst_PSRM/nzvc_0
+    ----------------------------------------
+    Total                      8.913ns (6.211ns logic, 2.702ns route)
+                                       (69.7% logic, 30.3% route)
+
+=========================================================================
 Timing constraint: Default period analysis for Clock 'clk'
   Clock period: 3.183ns (frequency: 314.125MHz)
-  Total number of paths / destination ports: 28 / 13
+  Total number of paths / destination ports: 27 / 12
 -------------------------------------------------------------------------
 Delay:               3.183ns (Levels of Logic = 6)
   Source:            Inst_nPC/salidaNProgramCounter_6 (FF)
@@ -1755,38 +1812,11 @@ Delay:               3.183ns (Levels of Logic = 6)
                                        (83.3% logic, 16.7% route)
 
 =========================================================================
-Timing constraint: Default period analysis for Clock 'IM_out<31>'
-  Clock period: 8.565ns (frequency: 116.749MHz)
-  Total number of paths / destination ports: 52 / 1
--------------------------------------------------------------------------
-Delay:               8.565ns (Levels of Logic = 6)
-  Source:            Inst_CU/salidaUnidadControl_1 (LATCH)
-  Destination:       Inst_PSRM/nzvc_0 (LATCH)
-  Source Clock:      IM_out<31> falling
-  Destination Clock: IM_out<31> falling
-
-  Data Path: Inst_CU/salidaUnidadControl_1 to Inst_PSRM/nzvc_0
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     LD:G->Q              27   0.588   1.224  Inst_CU/salidaUnidadControl_1 (Inst_CU/salidaUnidadControl_1)
-     LUT4:I0->O           32   0.612   1.142  Inst_ALU/salidaAlu_or00021 (Inst_ALU/salidaAlu_or0002)
-     LUT4:I1->O            1   0.612   0.360  Inst_ALU/salidaAlu<31>19 (Inst_ALU/salidaAlu<31>19)
-     LUT4_L:I3->LO         1   0.612   0.103  Inst_ALU/salidaAlu<31>71_SW0 (N365)
-     LUT4:I3->O            1   0.612   0.509  Inst_ALU/salidaAlu<31>71 (Inst_ALU/salidaAlu<31>71)
-     LUT4:I0->O            9   0.612   0.700  Inst_ALU/salidaAlu<31>575 (salidaAlu_31_OBUF)
-     LUT4:I3->O            1   0.612   0.000  Inst_PSRM/nzvc_0_mux0004105 (Inst_PSRM/nzvc_0_mux0004)
-     LDC:D                     0.268          Inst_PSRM/nzvc_0
-    ----------------------------------------
-    Total                      8.565ns (4.528ns logic, 4.037ns route)
-                                       (52.9% logic, 47.1% route)
-
-=========================================================================
 Timing constraint: Default period analysis for Clock 'Inst_RF/registro_11_not00001'
-  Clock period: 9.996ns (frequency: 100.041MHz)
-  Total number of paths / destination ports: 72641 / 226
+  Clock period: 10.023ns (frequency: 99.772MHz)
+  Total number of paths / destination ports: 74340 / 224
 -------------------------------------------------------------------------
-Delay:               9.996ns (Levels of Logic = 41)
+Delay:               10.023ns (Levels of Logic = 41)
   Source:            Inst_RF/registro_1_0 (LATCH)
   Destination:       Inst_RF/registro_16_31 (LATCH)
   Source Clock:      Inst_RF/registro_11_not00001 falling
@@ -1802,72 +1832,52 @@ Delay:               9.996ns (Levels of Logic = 41)
      MUXF6:I1->O           1   0.451   0.000  Inst_RF/Mmux__varindex0001_9_f6 (Inst_RF/Mmux__varindex0001_9_f6)
      MUXF7:I0->O           1   0.451   0.000  Inst_RF/Mmux__varindex0001_7_f7 (Inst_RF/Mmux__varindex0001_7_f7)
      MUXF8:I0->O           1   0.451   0.360  Inst_RF/Mmux__varindex0001_5_f8 (Inst_RF/Mmux__varindex0001_5_f8)
-     LUT4:I3->O            4   0.612   0.568  Inst_MUX/salida_mux<0> (MUX_out<0>)
-     LUT2:I1->O            1   0.612   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_lut<0> (Inst_ALU/Msub_salidaAlu_addsub0001_lut<0>)
-     MUXCY:S->O            1   0.404   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<0> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<0>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<1> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<1>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<2> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<2>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<3> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<3>)
-     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<4> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<4>)
-     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<5> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<5>)
-     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<6> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<6>)
-     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<7> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<7>)
-     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<8> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<8>)
-     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<9> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<9>)
-     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<10> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<10>)
-     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<11> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<11>)
-     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<12> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<12>)
-     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<13> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<13>)
-     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<14> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<14>)
-     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<15> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<15>)
-     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<16> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<16>)
-     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<17> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<17>)
-     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<18> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<18>)
-     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<19> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<19>)
-     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<20> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<20>)
-     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<21> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<21>)
-     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<22> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<22>)
-     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<23> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<23>)
-     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<24> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<24>)
-     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<25> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<25>)
-     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<26> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<26>)
-     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<27> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<27>)
-     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<28> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<28>)
-     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<29> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<29>)
-     MUXCY:CI->O           0   0.052   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<30> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<30>)
-     XORCY:CI->O           1   0.699   0.360  Inst_ALU/Msub_salidaAlu_addsub0001_xor<31> (Inst_ALU/salidaAlu_addsub0001<31>)
-     LUT4_L:I3->LO         1   0.612   0.103  Inst_ALU/salidaAlu<31>81 (Inst_ALU/salidaAlu<31>81)
-     LUT4:I3->O            9   0.612   0.000  Inst_ALU/salidaAlu<31>575 (salidaAlu_31_OBUF)
+     LUT4_D:I3->O          4   0.612   0.568  Inst_MUX/salida_mux<0> (MUX_out<0>)
+     LUT2:I1->O            1   0.612   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_lut<0>1 (Inst_ALU/Madd_salidaAlu_addsub0000_lut<0>1)
+     MUXCY:S->O            1   0.404   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<0> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<0>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<1> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<1>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<2> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<2>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<3> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<3>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<4> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<4>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<5> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<5>)
+     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<6> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<6>)
+     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<7> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<7>)
+     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<8> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<8>)
+     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<9> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<9>)
+     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<10> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<10>)
+     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<11> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<11>)
+     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<12> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<12>)
+     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<13> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<13>)
+     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<14> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<14>)
+     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<15> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<15>)
+     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<16> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<16>)
+     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<17> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<17>)
+     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<18> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<18>)
+     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<19> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<19>)
+     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<20> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<20>)
+     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<21> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<21>)
+     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<22> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<22>)
+     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<23> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<23>)
+     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<24> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<24>)
+     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<25> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<25>)
+     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<26> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<26>)
+     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<27> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<27>)
+     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<28> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<28>)
+     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<29> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<29>)
+     MUXCY:CI->O           0   0.052   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<30> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<30>)
+     XORCY:CI->O           1   0.699   0.387  Inst_ALU/Madd_salidaAlu_addsub0000_xor<31> (Inst_ALU/salidaAlu_addsub0000<31>)
+     LUT3_L:I2->LO         1   0.612   0.103  Inst_ALU/salidaAlu<31>81 (Inst_ALU/salidaAlu<31>81)
+     LUT4:I3->O            9   0.612   0.000  Inst_ALU/salidaAlu<31>84 (salidaAlu_31_OBUF)
      LDCE:D                    0.268          Inst_RF/registro_3_31
     ----------------------------------------
-    Total                      9.996ns (8.195ns logic, 1.801ns route)
-                                       (82.0% logic, 18.0% route)
-
-=========================================================================
-Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
-  Total number of paths / destination ports: 1 / 1
--------------------------------------------------------------------------
-Offset:              3.728ns (Levels of Logic = 2)
-  Source:            reset (PAD)
-  Destination:       Inst_PSR/PSRegister_20 (FF)
-  Destination Clock: clk rising
-
-  Data Path: reset to Inst_PSR/PSRegister_20
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     IBUF:I->O           394   1.106   1.170  reset_IBUF (reset_IBUF)
-     INV:I->O              1   0.612   0.357  Inst_PSR/reset_inv1_INV_0 (Inst_PSR/reset_inv)
-     FDE:CE                    0.483          Inst_PSR/PSRegister_20
-    ----------------------------------------
-    Total                      3.728ns (2.201ns logic, 1.527ns route)
-                                       (59.0% logic, 41.0% route)
+    Total                     10.023ns (8.195ns logic, 1.828ns route)
+                                       (81.8% logic, 18.2% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'IM_out<31>'
-  Total number of paths / destination ports: 483 / 6
+  Total number of paths / destination ports: 477 / 6
 -------------------------------------------------------------------------
-Offset:              14.100ns (Levels of Logic = 41)
+Offset:              14.102ns (Levels of Logic = 41)
   Source:            reset (PAD)
   Destination:       Inst_PSRM/nzvc_0 (LATCH)
   Destination Clock: IM_out<31> falling
@@ -1876,57 +1886,57 @@ Offset:              14.100ns (Levels of Logic = 41)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O           394   1.106   1.173  reset_IBUF (reset_IBUF)
-     LUT4:I3->O           27   0.612   1.224  Inst_IM/outInstruction<1>11 (N6)
+     IBUF:I->O           427   1.106   1.182  reset_IBUF (reset_IBUF)
+     LUT4:I3->O           25   0.612   1.223  Inst_IM/outInstruction<1>11 (N6)
      LUT3:I0->O            1   0.612   0.000  Inst_IM/outInstruction<14>1 (IM_out<14>)
-     LDCP:D->Q            66   0.393   1.151  Inst_WM/Rs1Integer_0 (Inst_WM/Rs1Integer_0)
-     LUT3:I1->O            5   0.612   0.690  Inst_RF/crs1<0>1 (CRs1<0>)
-     LUT2:I0->O            1   0.612   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_lut<0> (Inst_ALU/Msub_salidaAlu_addsub0001_lut<0>)
-     MUXCY:S->O            1   0.404   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<0> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<0>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<1> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<1>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<2> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<2>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<3> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<3>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<4> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<4>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<5> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<5>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<6> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<6>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<7> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<7>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<8> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<8>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<9> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<9>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<10> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<10>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<11> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<11>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<12> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<12>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<13> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<13>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<14> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<14>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<15> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<15>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<16> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<16>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<17> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<17>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<18> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<18>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<19> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<19>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<20> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<20>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<21> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<21>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<22> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<22>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<23> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<23>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<24> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<24>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<25> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<25>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<26> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<26>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<27> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<27>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<28> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<28>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<29> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<29>)
-     MUXCY:CI->O           0   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<30> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<30>)
-     XORCY:CI->O           1   0.699   0.360  Inst_ALU/Msub_salidaAlu_addsub0001_xor<31> (Inst_ALU/salidaAlu_addsub0001<31>)
-     LUT4_L:I3->LO         1   0.612   0.103  Inst_ALU/salidaAlu<31>81 (Inst_ALU/salidaAlu<31>81)
-     LUT4:I3->O            9   0.612   0.700  Inst_ALU/salidaAlu<31>575 (salidaAlu_31_OBUF)
+     LDCP:D->Q            88   0.393   1.157  Inst_WM/Rs1Integer_0 (Inst_WM/Rs1Integer_0)
+     LUT3:I1->O            4   0.612   0.651  Inst_RF/crs1<0>1 (CRs1<0>)
+     LUT2:I0->O            1   0.612   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_lut<0>1 (Inst_ALU/Madd_salidaAlu_addsub0000_lut<0>1)
+     MUXCY:S->O            1   0.404   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<0> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<0>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<1> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<1>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<2> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<2>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<3> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<3>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<4> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<4>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<5> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<5>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<6> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<6>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<7> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<7>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<8> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<8>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<9> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<9>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<10> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<10>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<11> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<11>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<12> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<12>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<13> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<13>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<14> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<14>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<15> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<15>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<16> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<16>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<17> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<17>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<18> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<18>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<19> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<19>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<20> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<20>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<21> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<21>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<22> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<22>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<23> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<23>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<24> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<24>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<25> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<25>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<26> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<26>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<27> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<27>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<28> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<28>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<29> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<29>)
+     MUXCY:CI->O           0   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<30> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<30>)
+     XORCY:CI->O           1   0.699   0.387  Inst_ALU/Madd_salidaAlu_addsub0000_xor<31> (Inst_ALU/salidaAlu_addsub0000<31>)
+     LUT3_L:I2->LO         1   0.612   0.103  Inst_ALU/salidaAlu<31>81 (Inst_ALU/salidaAlu<31>81)
+     LUT4:I3->O            9   0.612   0.700  Inst_ALU/salidaAlu<31>84 (salidaAlu_31_OBUF)
      LUT4:I3->O            1   0.612   0.000  Inst_PSRM/nzvc_0_mux0004105 (Inst_PSRM/nzvc_0_mux0004)
      LDC:D                     0.268          Inst_PSRM/nzvc_0
     ----------------------------------------
-    Total                     14.100ns (8.699ns logic, 5.401ns route)
+    Total                     14.102ns (8.699ns logic, 5.403ns route)
                                        (61.7% logic, 38.3% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'Inst_WM/Rs2Integer_cmp_le0000'
   Total number of paths / destination ports: 5 / 4
 -------------------------------------------------------------------------
-Offset:              6.685ns (Levels of Logic = 4)
+Offset:              6.692ns (Levels of Logic = 4)
   Source:            reset (PAD)
   Destination:       Inst_WM/Rs2Integer_4 (LATCH)
   Destination Clock: Inst_WM/Rs2Integer_cmp_le0000 falling
@@ -1935,20 +1945,20 @@ Offset:              6.685ns (Levels of Logic = 4)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O           394   1.106   1.173  reset_IBUF (reset_IBUF)
-     LUT4:I3->O           27   0.612   1.075  Inst_IM/outInstruction<1>11 (N6)
-     LUT4:I3->O           40   0.612   1.227  Inst_IM/outInstruction<11>11 (IM_out<10>)
+     IBUF:I->O           427   1.106   1.182  reset_IBUF (reset_IBUF)
+     LUT4:I3->O           25   0.612   1.074  Inst_IM/outInstruction<1>11 (N6)
+     LUT4:I3->O           36   0.612   1.226  Inst_IM/outInstruction<11>11 (IM_out<10>)
      LUT3:I0->O            2   0.612   0.000  Inst_WM/Rs2Integer_4__and000111 (Inst_WM/Rs2Integer_4__and0001)
      LDCP:D                    0.268          Inst_WM/Rs2Integer_4
     ----------------------------------------
-    Total                      6.685ns (3.210ns logic, 3.475ns route)
+    Total                      6.692ns (3.210ns logic, 3.482ns route)
                                        (48.0% logic, 52.0% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'Inst_WM/RdInteger_cmp_le0000'
   Total number of paths / destination ports: 4 / 4
 -------------------------------------------------------------------------
-Offset:              6.017ns (Levels of Logic = 4)
+Offset:              6.025ns (Levels of Logic = 4)
   Source:            reset (PAD)
   Destination:       Inst_WM/RdInteger_5 (LATCH)
   Destination Clock: Inst_WM/RdInteger_cmp_le0000 falling
@@ -1957,20 +1967,20 @@ Offset:              6.017ns (Levels of Logic = 4)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O           394   1.106   1.173  reset_IBUF (reset_IBUF)
-     LUT4:I3->O           27   0.612   1.102  Inst_IM/outInstruction<1>11 (N6)
+     IBUF:I->O           427   1.106   1.182  reset_IBUF (reset_IBUF)
+     LUT4:I3->O           25   0.612   1.101  Inst_IM/outInstruction<1>11 (N6)
      LUT4:I2->O            2   0.612   0.532  Inst_IM/outInstruction<29>1 (IM_out<29>)
      LUT2:I0->O            3   0.612   0.000  Inst_WM/RdInteger_4__and000111 (Inst_WM/RdInteger_4__and0001)
      LDCP:D                    0.268          Inst_WM/RdInteger_4
     ----------------------------------------
-    Total                      6.017ns (3.210ns logic, 2.807ns route)
-                                       (53.4% logic, 46.6% route)
+    Total                      6.025ns (3.210ns logic, 2.815ns route)
+                                       (53.3% logic, 46.7% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'Inst_WM/ncwp_signal_not0001'
   Total number of paths / destination ports: 3 / 1
 -------------------------------------------------------------------------
-Offset:              6.005ns (Levels of Logic = 4)
+Offset:              6.013ns (Levels of Logic = 4)
   Source:            reset (PAD)
   Destination:       Inst_WM/ncwp_signal (LATCH)
   Destination Clock: Inst_WM/ncwp_signal_not0001 falling
@@ -1979,20 +1989,20 @@ Offset:              6.005ns (Levels of Logic = 4)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O           394   1.106   1.173  reset_IBUF (reset_IBUF)
-     LUT4:I3->O           27   0.612   1.141  Inst_IM/outInstruction<1>11 (N6)
+     IBUF:I->O           427   1.106   1.182  reset_IBUF (reset_IBUF)
+     LUT4:I3->O           25   0.612   1.140  Inst_IM/outInstruction<1>11 (N6)
      LUT4:I1->O            3   0.612   0.481  Inst_IM/outInstruction<19>1 (IM_out<19>)
      LUT4:I2->O            1   0.612   0.000  Inst_WM/ncwp_signal_mux00041 (Inst_WM/ncwp_signal_mux0004)
      LD:D                      0.268          Inst_WM/ncwp_signal
     ----------------------------------------
-    Total                      6.005ns (3.210ns logic, 2.795ns route)
-                                       (53.5% logic, 46.5% route)
+    Total                      6.013ns (3.210ns logic, 2.803ns route)
+                                       (53.4% logic, 46.6% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'Inst_RF/registro_11_not00001'
-  Total number of paths / destination ports: 56528 / 226
+  Total number of paths / destination ports: 54915 / 224
 -------------------------------------------------------------------------
-Offset:              12.788ns (Levels of Logic = 40)
+Offset:              12.790ns (Levels of Logic = 40)
   Source:            reset (PAD)
   Destination:       Inst_RF/registro_16_31 (LATCH)
   Destination Clock: Inst_RF/registro_11_not00001 falling
@@ -2001,174 +2011,56 @@ Offset:              12.788ns (Levels of Logic = 40)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O           394   1.106   1.173  reset_IBUF (reset_IBUF)
-     LUT4:I3->O           27   0.612   1.224  Inst_IM/outInstruction<1>11 (N6)
+     IBUF:I->O           427   1.106   1.182  reset_IBUF (reset_IBUF)
+     LUT4:I3->O           25   0.612   1.223  Inst_IM/outInstruction<1>11 (N6)
      LUT3:I0->O            1   0.612   0.000  Inst_IM/outInstruction<14>1 (IM_out<14>)
-     LDCP:D->Q            66   0.393   1.151  Inst_WM/Rs1Integer_0 (Inst_WM/Rs1Integer_0)
-     LUT3:I1->O            5   0.612   0.690  Inst_RF/crs1<0>1 (CRs1<0>)
-     LUT2:I0->O            1   0.612   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_lut<0> (Inst_ALU/Msub_salidaAlu_addsub0001_lut<0>)
-     MUXCY:S->O            1   0.404   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<0> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<0>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<1> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<1>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<2> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<2>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<3> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<3>)
-     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<4> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<4>)
-     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<5> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<5>)
-     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<6> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<6>)
-     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<7> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<7>)
-     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<8> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<8>)
-     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<9> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<9>)
-     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<10> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<10>)
-     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<11> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<11>)
-     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<12> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<12>)
-     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<13> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<13>)
-     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<14> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<14>)
-     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<15> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<15>)
-     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<16> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<16>)
-     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<17> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<17>)
-     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<18> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<18>)
-     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<19> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<19>)
-     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<20> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<20>)
-     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<21> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<21>)
-     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<22> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<22>)
-     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<23> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<23>)
-     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<24> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<24>)
-     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<25> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<25>)
-     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<26> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<26>)
-     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<27> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<27>)
-     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<28> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<28>)
-     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<29> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<29>)
-     MUXCY:CI->O           0   0.052   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<30> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<30>)
-     XORCY:CI->O           1   0.699   0.360  Inst_ALU/Msub_salidaAlu_addsub0001_xor<31> (Inst_ALU/salidaAlu_addsub0001<31>)
-     LUT4_L:I3->LO         1   0.612   0.103  Inst_ALU/salidaAlu<31>81 (Inst_ALU/salidaAlu<31>81)
-     LUT4:I3->O            9   0.612   0.000  Inst_ALU/salidaAlu<31>575 (salidaAlu_31_OBUF)
+     LDCP:D->Q            88   0.393   1.157  Inst_WM/Rs1Integer_0 (Inst_WM/Rs1Integer_0)
+     LUT3:I1->O            4   0.612   0.651  Inst_RF/crs1<0>1 (CRs1<0>)
+     LUT2:I0->O            1   0.612   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_lut<0>1 (Inst_ALU/Madd_salidaAlu_addsub0000_lut<0>1)
+     MUXCY:S->O            1   0.404   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<0> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<0>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<1> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<1>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<2> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<2>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<3> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<3>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<4> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<4>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<5> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<5>)
+     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<6> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<6>)
+     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<7> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<7>)
+     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<8> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<8>)
+     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<9> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<9>)
+     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<10> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<10>)
+     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<11> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<11>)
+     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<12> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<12>)
+     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<13> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<13>)
+     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<14> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<14>)
+     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<15> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<15>)
+     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<16> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<16>)
+     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<17> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<17>)
+     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<18> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<18>)
+     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<19> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<19>)
+     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<20> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<20>)
+     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<21> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<21>)
+     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<22> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<22>)
+     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<23> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<23>)
+     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<24> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<24>)
+     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<25> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<25>)
+     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<26> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<26>)
+     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<27> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<27>)
+     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<28> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<28>)
+     MUXCY:CI->O           1   0.052   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<29> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<29>)
+     MUXCY:CI->O           0   0.052   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<30> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<30>)
+     XORCY:CI->O           1   0.699   0.387  Inst_ALU/Madd_salidaAlu_addsub0000_xor<31> (Inst_ALU/salidaAlu_addsub0000<31>)
+     LUT3_L:I2->LO         1   0.612   0.103  Inst_ALU/salidaAlu<31>81 (Inst_ALU/salidaAlu<31>81)
+     LUT4:I3->O            9   0.612   0.000  Inst_ALU/salidaAlu<31>84 (salidaAlu_31_OBUF)
      LDCE:D                    0.268          Inst_RF/registro_3_31
     ----------------------------------------
-    Total                     12.788ns (8.087ns logic, 4.701ns route)
+    Total                     12.790ns (8.087ns logic, 4.703ns route)
                                        (63.2% logic, 36.8% route)
 
 =========================================================================
-Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
-  Total number of paths / destination ports: 25877 / 32
--------------------------------------------------------------------------
-Offset:              15.153ns (Levels of Logic = 40)
-  Source:            Inst_PC/pc_salida_10 (FF)
-  Destination:       salidaAlu<31> (PAD)
-  Source Clock:      clk rising
-
-  Data Path: Inst_PC/pc_salida_10 to salidaAlu<31>
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     FDC:C->Q              2   0.514   0.532  Inst_PC/pc_salida_10 (Inst_PC/pc_salida_10)
-     LUT4:I0->O           27   0.612   1.224  Inst_IM/outInstruction<1>11 (N6)
-     LUT3:I0->O            1   0.612   0.000  Inst_IM/outInstruction<14>1 (IM_out<14>)
-     LDCP:D->Q            66   0.393   1.151  Inst_WM/Rs1Integer_0 (Inst_WM/Rs1Integer_0)
-     LUT3:I1->O            5   0.612   0.690  Inst_RF/crs1<0>1 (CRs1<0>)
-     LUT2:I0->O            1   0.612   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_lut<0> (Inst_ALU/Msub_salidaAlu_addsub0001_lut<0>)
-     MUXCY:S->O            1   0.404   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<0> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<0>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<1> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<1>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<2> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<2>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<3> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<3>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<4> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<4>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<5> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<5>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<6> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<6>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<7> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<7>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<8> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<8>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<9> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<9>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<10> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<10>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<11> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<11>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<12> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<12>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<13> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<13>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<14> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<14>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<15> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<15>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<16> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<16>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<17> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<17>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<18> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<18>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<19> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<19>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<20> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<20>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<21> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<21>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<22> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<22>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<23> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<23>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<24> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<24>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<25> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<25>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<26> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<26>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<27> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<27>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<28> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<28>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<29> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<29>)
-     MUXCY:CI->O           0   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<30> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<30>)
-     XORCY:CI->O           1   0.699   0.360  Inst_ALU/Msub_salidaAlu_addsub0001_xor<31> (Inst_ALU/salidaAlu_addsub0001<31>)
-     LUT4_L:I3->LO         1   0.612   0.103  Inst_ALU/salidaAlu<31>81 (Inst_ALU/salidaAlu<31>81)
-     LUT4:I3->O            9   0.612   0.697  Inst_ALU/salidaAlu<31>575 (salidaAlu_31_OBUF)
-     OBUF:I->O                 3.169          salidaAlu_31_OBUF (salidaAlu<31>)
-    ----------------------------------------
-    Total                     15.153ns (10.396ns logic, 4.757ns route)
-                                       (68.6% logic, 31.4% route)
-
-=========================================================================
-Timing constraint: Default OFFSET OUT AFTER for Clock 'Inst_WM/Rs2Integer_cmp_le0000'
-  Total number of paths / destination ports: 16413 / 32
--------------------------------------------------------------------------
-Offset:              14.375ns (Levels of Logic = 42)
-  Source:            Inst_WM/Rs2Integer_3 (LATCH)
-  Destination:       salidaAlu<31> (PAD)
-  Source Clock:      Inst_WM/Rs2Integer_cmp_le0000 falling
-
-  Data Path: Inst_WM/Rs2Integer_3 to salidaAlu<31>
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     LDCP:G->Q           216   0.588   1.191  Inst_WM/Rs2Integer_3 (Inst_WM/Rs2Integer_3)
-     LUT3:I1->O            1   0.612   0.000  Inst_RF/Mmux__varindex0001_103 (Inst_RF/Mmux__varindex0001_103)
-     MUXF5:I1->O           1   0.278   0.000  Inst_RF/Mmux__varindex0001_9_f5_1 (Inst_RF/Mmux__varindex0001_9_f52)
-     MUXF6:I1->O           1   0.451   0.000  Inst_RF/Mmux__varindex0001_8_f6_0 (Inst_RF/Mmux__varindex0001_8_f61)
-     MUXF7:I1->O           1   0.451   0.000  Inst_RF/Mmux__varindex0001_7_f7 (Inst_RF/Mmux__varindex0001_7_f7)
-     MUXF8:I0->O           1   0.451   0.360  Inst_RF/Mmux__varindex0001_5_f8 (Inst_RF/Mmux__varindex0001_5_f8)
-     LUT4:I3->O            4   0.612   0.568  Inst_MUX/salida_mux<0> (MUX_out<0>)
-     LUT2:I1->O            1   0.612   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_lut<0> (Inst_ALU/Msub_salidaAlu_addsub0001_lut<0>)
-     MUXCY:S->O            1   0.404   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<0> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<0>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<1> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<1>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<2> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<2>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<3> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<3>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<4> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<4>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<5> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<5>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<6> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<6>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<7> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<7>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<8> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<8>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<9> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<9>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<10> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<10>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<11> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<11>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<12> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<12>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<13> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<13>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<14> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<14>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<15> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<15>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<16> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<16>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<17> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<17>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<18> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<18>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<19> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<19>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<20> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<20>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<21> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<21>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<22> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<22>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<23> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<23>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<24> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<24>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<25> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<25>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<26> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<26>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<27> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<27>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<28> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<28>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<29> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<29>)
-     MUXCY:CI->O           0   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<30> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<30>)
-     XORCY:CI->O           1   0.699   0.360  Inst_ALU/Msub_salidaAlu_addsub0001_xor<31> (Inst_ALU/salidaAlu_addsub0001<31>)
-     LUT4_L:I3->LO         1   0.612   0.103  Inst_ALU/salidaAlu<31>81 (Inst_ALU/salidaAlu<31>81)
-     LUT4:I3->O            9   0.612   0.697  Inst_ALU/salidaAlu<31>575 (salidaAlu_31_OBUF)
-     OBUF:I->O                 3.169          salidaAlu_31_OBUF (salidaAlu<31>)
-    ----------------------------------------
-    Total                     14.375ns (11.096ns logic, 3.279ns route)
-                                       (77.2% logic, 22.8% route)
-
-=========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'Inst_RF/registro_11_not00001'
-  Total number of paths / destination ports: 10324 / 32
+  Total number of paths / destination ports: 10620 / 32
 -------------------------------------------------------------------------
-Offset:              13.594ns (Levels of Logic = 42)
+Offset:              13.621ns (Levels of Logic = 42)
   Source:            Inst_RF/registro_1_0 (LATCH)
   Destination:       salidaAlu<31> (PAD)
   Source Clock:      Inst_RF/registro_11_not00001 falling
@@ -2183,77 +2075,195 @@ Offset:              13.594ns (Levels of Logic = 42)
      MUXF6:I1->O           1   0.451   0.000  Inst_RF/Mmux__varindex0001_9_f6 (Inst_RF/Mmux__varindex0001_9_f6)
      MUXF7:I0->O           1   0.451   0.000  Inst_RF/Mmux__varindex0001_7_f7 (Inst_RF/Mmux__varindex0001_7_f7)
      MUXF8:I0->O           1   0.451   0.360  Inst_RF/Mmux__varindex0001_5_f8 (Inst_RF/Mmux__varindex0001_5_f8)
-     LUT4:I3->O            4   0.612   0.568  Inst_MUX/salida_mux<0> (MUX_out<0>)
-     LUT2:I1->O            1   0.612   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_lut<0> (Inst_ALU/Msub_salidaAlu_addsub0001_lut<0>)
-     MUXCY:S->O            1   0.404   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<0> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<0>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<1> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<1>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<2> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<2>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<3> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<3>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<4> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<4>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<5> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<5>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<6> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<6>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<7> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<7>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<8> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<8>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<9> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<9>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<10> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<10>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<11> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<11>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<12> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<12>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<13> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<13>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<14> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<14>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<15> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<15>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<16> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<16>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<17> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<17>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<18> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<18>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<19> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<19>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<20> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<20>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<21> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<21>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<22> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<22>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<23> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<23>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<24> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<24>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<25> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<25>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<26> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<26>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<27> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<27>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<28> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<28>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<29> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<29>)
-     MUXCY:CI->O           0   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<30> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<30>)
-     XORCY:CI->O           1   0.699   0.360  Inst_ALU/Msub_salidaAlu_addsub0001_xor<31> (Inst_ALU/salidaAlu_addsub0001<31>)
-     LUT4_L:I3->LO         1   0.612   0.103  Inst_ALU/salidaAlu<31>81 (Inst_ALU/salidaAlu<31>81)
-     LUT4:I3->O            9   0.612   0.697  Inst_ALU/salidaAlu<31>575 (salidaAlu_31_OBUF)
+     LUT4_D:I3->O          4   0.612   0.568  Inst_MUX/salida_mux<0> (MUX_out<0>)
+     LUT2:I1->O            1   0.612   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_lut<0>1 (Inst_ALU/Madd_salidaAlu_addsub0000_lut<0>1)
+     MUXCY:S->O            1   0.404   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<0> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<0>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<1> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<1>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<2> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<2>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<3> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<3>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<4> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<4>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<5> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<5>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<6> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<6>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<7> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<7>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<8> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<8>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<9> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<9>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<10> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<10>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<11> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<11>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<12> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<12>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<13> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<13>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<14> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<14>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<15> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<15>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<16> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<16>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<17> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<17>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<18> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<18>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<19> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<19>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<20> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<20>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<21> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<21>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<22> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<22>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<23> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<23>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<24> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<24>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<25> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<25>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<26> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<26>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<27> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<27>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<28> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<28>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<29> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<29>)
+     MUXCY:CI->O           0   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<30> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<30>)
+     XORCY:CI->O           1   0.699   0.387  Inst_ALU/Madd_salidaAlu_addsub0000_xor<31> (Inst_ALU/salidaAlu_addsub0000<31>)
+     LUT3_L:I2->LO         1   0.612   0.103  Inst_ALU/salidaAlu<31>81 (Inst_ALU/salidaAlu<31>81)
+     LUT4:I3->O            9   0.612   0.697  Inst_ALU/salidaAlu<31>84 (salidaAlu_31_OBUF)
      OBUF:I->O                 3.169          salidaAlu_31_OBUF (salidaAlu<31>)
     ----------------------------------------
-    Total                     13.594ns (11.096ns logic, 2.498ns route)
-                                       (81.6% logic, 18.4% route)
+    Total                     13.621ns (11.096ns logic, 2.525ns route)
+                                       (81.5% logic, 18.5% route)
 
 =========================================================================
-Timing constraint: Default OFFSET OUT AFTER for Clock 'IM_out<31>'
-  Total number of paths / destination ports: 1283 / 32
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 25229 / 32
 -------------------------------------------------------------------------
-Offset:              11.703ns (Levels of Logic = 7)
-  Source:            Inst_CU/salidaUnidadControl_5 (LATCH)
-  Destination:       salidaAlu<15> (PAD)
-  Source Clock:      IM_out<31> falling
+Offset:              15.146ns (Levels of Logic = 40)
+  Source:            Inst_PC/pc_salida_10 (FF)
+  Destination:       salidaAlu<31> (PAD)
+  Source Clock:      clk rising
 
-  Data Path: Inst_CU/salidaUnidadControl_5 to salidaAlu<15>
+  Data Path: Inst_PC/pc_salida_10 to salidaAlu<31>
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     LD:G->Q              25   0.588   1.223  Inst_CU/salidaUnidadControl_5 (Inst_CU/salidaUnidadControl_5)
-     LUT4_D:I0->O         31   0.612   1.225  Inst_ALU/salidaAlu_or00031 (Inst_ALU/salidaAlu_or0003)
-     LUT4:I0->O            1   0.612   0.360  Inst_ALU/salidaAlu<15>29_SW0 (N303)
-     LUT4_L:I3->LO         1   0.612   0.103  Inst_ALU/salidaAlu<15>29 (Inst_ALU/salidaAlu<15>29)
-     LUT4:I3->O            1   0.612   0.360  Inst_ALU/salidaAlu<15>47_SW0 (N279)
-     LUT4:I3->O            1   0.612   0.360  Inst_ALU/salidaAlu<15>47 (Inst_ALU/salidaAlu<15>47)
-     LUT4:I3->O            8   0.612   0.643  Inst_ALU/salidaAlu<15>74 (Inst_ALU/salidaAlu<15>102)
-     OBUF:I->O                 3.169          salidaAlu_15_OBUF (salidaAlu<15>)
+     FDC:C->Q              2   0.514   0.532  Inst_PC/pc_salida_10 (Inst_PC/pc_salida_10)
+     LUT4:I0->O           25   0.612   1.223  Inst_IM/outInstruction<1>11 (N6)
+     LUT3:I0->O            1   0.612   0.000  Inst_IM/outInstruction<14>1 (IM_out<14>)
+     LDCP:D->Q            88   0.393   1.157  Inst_WM/Rs1Integer_0 (Inst_WM/Rs1Integer_0)
+     LUT3:I1->O            4   0.612   0.651  Inst_RF/crs1<0>1 (CRs1<0>)
+     LUT2:I0->O            1   0.612   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_lut<0>1 (Inst_ALU/Madd_salidaAlu_addsub0000_lut<0>1)
+     MUXCY:S->O            1   0.404   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<0> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<0>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<1> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<1>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<2> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<2>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<3> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<3>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<4> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<4>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<5> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<5>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<6> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<6>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<7> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<7>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<8> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<8>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<9> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<9>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<10> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<10>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<11> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<11>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<12> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<12>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<13> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<13>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<14> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<14>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<15> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<15>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<16> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<16>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<17> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<17>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<18> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<18>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<19> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<19>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<20> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<20>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<21> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<21>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<22> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<22>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<23> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<23>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<24> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<24>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<25> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<25>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<26> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<26>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<27> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<27>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<28> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<28>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<29> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<29>)
+     MUXCY:CI->O           0   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<30> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<30>)
+     XORCY:CI->O           1   0.699   0.387  Inst_ALU/Madd_salidaAlu_addsub0000_xor<31> (Inst_ALU/salidaAlu_addsub0000<31>)
+     LUT3_L:I2->LO         1   0.612   0.103  Inst_ALU/salidaAlu<31>81 (Inst_ALU/salidaAlu<31>81)
+     LUT4:I3->O            9   0.612   0.697  Inst_ALU/salidaAlu<31>84 (salidaAlu_31_OBUF)
+     OBUF:I->O                 3.169          salidaAlu_31_OBUF (salidaAlu<31>)
     ----------------------------------------
-    Total                     11.703ns (7.429ns logic, 4.274ns route)
-                                       (63.5% logic, 36.5% route)
+    Total                     15.146ns (10.396ns logic, 4.750ns route)
+                                       (68.6% logic, 31.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Inst_WM/Rs2Integer_cmp_le0000'
+  Total number of paths / destination ports: 17310 / 32
+-------------------------------------------------------------------------
+Offset:              14.404ns (Levels of Logic = 42)
+  Source:            Inst_WM/Rs2Integer_3 (LATCH)
+  Destination:       salidaAlu<31> (PAD)
+  Source Clock:      Inst_WM/Rs2Integer_cmp_le0000 falling
+
+  Data Path: Inst_WM/Rs2Integer_3 to salidaAlu<31>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDCP:G->Q           224   0.588   1.193  Inst_WM/Rs2Integer_3 (Inst_WM/Rs2Integer_3)
+     LUT3:I1->O            1   0.612   0.000  Inst_RF/Mmux__varindex0001_103 (Inst_RF/Mmux__varindex0001_103)
+     MUXF5:I1->O           1   0.278   0.000  Inst_RF/Mmux__varindex0001_9_f5_1 (Inst_RF/Mmux__varindex0001_9_f52)
+     MUXF6:I1->O           1   0.451   0.000  Inst_RF/Mmux__varindex0001_8_f6_0 (Inst_RF/Mmux__varindex0001_8_f61)
+     MUXF7:I1->O           1   0.451   0.000  Inst_RF/Mmux__varindex0001_7_f7 (Inst_RF/Mmux__varindex0001_7_f7)
+     MUXF8:I0->O           1   0.451   0.360  Inst_RF/Mmux__varindex0001_5_f8 (Inst_RF/Mmux__varindex0001_5_f8)
+     LUT4_D:I3->O          4   0.612   0.568  Inst_MUX/salida_mux<0> (MUX_out<0>)
+     LUT2:I1->O            1   0.612   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_lut<0>1 (Inst_ALU/Madd_salidaAlu_addsub0000_lut<0>1)
+     MUXCY:S->O            1   0.404   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<0> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<0>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<1> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<1>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<2> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<2>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<3> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<3>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<4> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<4>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<5> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<5>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<6> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<6>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<7> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<7>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<8> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<8>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<9> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<9>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<10> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<10>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<11> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<11>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<12> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<12>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<13> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<13>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<14> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<14>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<15> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<15>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<16> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<16>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<17> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<17>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<18> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<18>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<19> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<19>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<20> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<20>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<21> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<21>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<22> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<22>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<23> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<23>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<24> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<24>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<25> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<25>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<26> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<26>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<27> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<27>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<28> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<28>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<29> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<29>)
+     MUXCY:CI->O           0   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<30> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<30>)
+     XORCY:CI->O           1   0.699   0.387  Inst_ALU/Madd_salidaAlu_addsub0000_xor<31> (Inst_ALU/salidaAlu_addsub0000<31>)
+     LUT3_L:I2->LO         1   0.612   0.103  Inst_ALU/salidaAlu<31>81 (Inst_ALU/salidaAlu<31>81)
+     LUT4:I3->O            9   0.612   0.697  Inst_ALU/salidaAlu<31>84 (salidaAlu_31_OBUF)
+     OBUF:I->O                 3.169          salidaAlu_31_OBUF (salidaAlu<31>)
+    ----------------------------------------
+    Total                     14.404ns (11.096ns logic, 3.308ns route)
+                                       (77.0% logic, 23.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'IM_out<31>'
+  Total number of paths / destination ports: 1282 / 32
+-------------------------------------------------------------------------
+Offset:              11.587ns (Levels of Logic = 7)
+  Source:            Inst_CU/salidaUnidadControl_1 (LATCH)
+  Destination:       salidaAlu<17> (PAD)
+  Source Clock:      IM_out<31> falling
+
+  Data Path: Inst_CU/salidaUnidadControl_1 to salidaAlu<17>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LD:G->Q              53   0.588   1.082  Inst_CU/salidaUnidadControl_1 (Inst_CU/salidaUnidadControl_1)
+     LUT4_D:I3->O         26   0.612   1.223  Inst_ALU/salidaAlu_or00031 (Inst_ALU/salidaAlu_or0003)
+     LUT4:I0->O            1   0.612   0.360  Inst_ALU/salidaAlu<17>29_SW0 (N261)
+     LUT4_L:I3->LO         1   0.612   0.103  Inst_ALU/salidaAlu<17>29 (Inst_ALU/salidaAlu<17>29)
+     LUT4:I3->O            1   0.612   0.360  Inst_ALU/salidaAlu<17>47_SW0 (N195)
+     LUT4:I3->O            1   0.612   0.387  Inst_ALU/salidaAlu<17>47 (Inst_ALU/salidaAlu<17>47)
+     LUT4:I2->O            8   0.612   0.643  Inst_ALU/salidaAlu<17>74 (salidaAlu_17_OBUF)
+     OBUF:I->O                 3.169          salidaAlu_17_OBUF (salidaAlu<17>)
+    ----------------------------------------
+    Total                     11.587ns (7.429ns logic, 4.158ns route)
+                                       (64.1% logic, 35.9% route)
 
 =========================================================================
 Timing constraint: Default path analysis
-  Total number of paths / destination ports: 8038 / 32
+  Total number of paths / destination ports: 7845 / 32
 -------------------------------------------------------------------------
-Delay:               16.386ns (Levels of Logic = 41)
+Delay:               16.388ns (Levels of Logic = 41)
   Source:            reset (PAD)
   Destination:       salidaAlu<31> (PAD)
 
@@ -2261,62 +2271,62 @@ Delay:               16.386ns (Levels of Logic = 41)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O           394   1.106   1.173  reset_IBUF (reset_IBUF)
-     LUT4:I3->O           27   0.612   1.224  Inst_IM/outInstruction<1>11 (N6)
+     IBUF:I->O           427   1.106   1.182  reset_IBUF (reset_IBUF)
+     LUT4:I3->O           25   0.612   1.223  Inst_IM/outInstruction<1>11 (N6)
      LUT3:I0->O            1   0.612   0.000  Inst_IM/outInstruction<14>1 (IM_out<14>)
-     LDCP:D->Q            66   0.393   1.151  Inst_WM/Rs1Integer_0 (Inst_WM/Rs1Integer_0)
-     LUT3:I1->O            5   0.612   0.690  Inst_RF/crs1<0>1 (CRs1<0>)
-     LUT2:I0->O            1   0.612   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_lut<0> (Inst_ALU/Msub_salidaAlu_addsub0001_lut<0>)
-     MUXCY:S->O            1   0.404   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<0> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<0>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<1> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<1>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<2> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<2>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<3> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<3>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<4> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<4>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<5> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<5>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<6> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<6>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<7> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<7>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<8> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<8>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<9> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<9>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<10> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<10>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<11> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<11>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<12> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<12>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<13> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<13>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<14> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<14>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<15> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<15>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<16> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<16>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<17> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<17>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<18> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<18>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<19> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<19>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<20> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<20>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<21> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<21>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<22> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<22>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<23> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<23>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<24> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<24>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<25> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<25>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<26> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<26>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<27> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<27>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<28> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<28>)
-     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<29> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<29>)
-     MUXCY:CI->O           0   0.051   0.000  Inst_ALU/Msub_salidaAlu_addsub0001_cy<30> (Inst_ALU/Msub_salidaAlu_addsub0001_cy<30>)
-     XORCY:CI->O           1   0.699   0.360  Inst_ALU/Msub_salidaAlu_addsub0001_xor<31> (Inst_ALU/salidaAlu_addsub0001<31>)
-     LUT4_L:I3->LO         1   0.612   0.103  Inst_ALU/salidaAlu<31>81 (Inst_ALU/salidaAlu<31>81)
-     LUT4:I3->O            9   0.612   0.697  Inst_ALU/salidaAlu<31>575 (salidaAlu_31_OBUF)
+     LDCP:D->Q            88   0.393   1.157  Inst_WM/Rs1Integer_0 (Inst_WM/Rs1Integer_0)
+     LUT3:I1->O            4   0.612   0.651  Inst_RF/crs1<0>1 (CRs1<0>)
+     LUT2:I0->O            1   0.612   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_lut<0>1 (Inst_ALU/Madd_salidaAlu_addsub0000_lut<0>1)
+     MUXCY:S->O            1   0.404   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<0> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<0>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<1> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<1>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<2> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<2>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<3> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<3>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<4> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<4>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<5> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<5>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<6> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<6>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<7> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<7>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<8> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<8>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<9> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<9>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<10> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<10>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<11> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<11>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<12> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<12>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<13> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<13>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<14> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<14>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<15> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<15>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<16> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<16>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<17> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<17>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<18> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<18>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<19> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<19>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<20> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<20>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<21> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<21>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<22> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<22>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<23> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<23>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<24> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<24>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<25> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<25>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<26> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<26>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<27> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<27>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<28> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<28>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<29> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<29>)
+     MUXCY:CI->O           0   0.051   0.000  Inst_ALU/Madd_salidaAlu_addsub0000_cy<30> (Inst_ALU/Madd_salidaAlu_addsub0000_cy<30>)
+     XORCY:CI->O           1   0.699   0.387  Inst_ALU/Madd_salidaAlu_addsub0000_xor<31> (Inst_ALU/salidaAlu_addsub0000<31>)
+     LUT3_L:I2->LO         1   0.612   0.103  Inst_ALU/salidaAlu<31>81 (Inst_ALU/salidaAlu<31>81)
+     LUT4:I3->O            9   0.612   0.697  Inst_ALU/salidaAlu<31>84 (salidaAlu_31_OBUF)
      OBUF:I->O                 3.169          salidaAlu_31_OBUF (salidaAlu<31>)
     ----------------------------------------
-    Total                     16.386ns (10.988ns logic, 5.398ns route)
+    Total                     16.388ns (10.988ns logic, 5.400ns route)
                                        (67.1% logic, 32.9% route)
 
 =========================================================================
 
 
-Total REAL time to Xst completion: 38.00 secs
-Total CPU time to Xst completion: 37.80 secs
+Total REAL time to Xst completion: 33.00 secs
+Total CPU time to Xst completion: 33.12 secs
  
 --> 
 
-Total memory usage is 522788 kilobytes
+Total memory usage is 518372 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings : 1169 (   0 filtered)
+Number of warnings : 1171 (   0 filtered)
 Number of infos    :    5 (   0 filtered)
 

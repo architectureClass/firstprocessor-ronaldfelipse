@@ -25,7 +25,7 @@ extern char *STD_TEXTIO;
 static const char *ng1 = "romfile";
 extern char *STD_STANDARD;
 extern char *IEEE_P_2592010699;
-static const char *ng4 = "C:/Users/utp/Desktop/firstprocessor-ronaldfelipse-3d3a6448cdfb3922c3d0108afe146206791c2697/InstructionMemory.vhd";
+static const char *ng4 = "C:/Users/cristian b/Desktop/Arquitectura/firstprocessor-ronaldfelipse/InstructionMemory.vhd";
 extern char *IEEE_P_3620187407;
 
 char *ieee_p_2592010699_sub_393209765_503743352(char *, char *, char *, char *);
@@ -259,7 +259,7 @@ LAB4:    xsi_set_current_line(44, ng4);
     t2 = *((char **)t1);
     t1 = (t0 + 1032U);
     t5 = *((char **)t1);
-    t1 = (t0 + 5596U);
+    t1 = (t0 + 5448U);
     t11 = ieee_p_3620187407_sub_514432868_3965413181(IEEE_P_3620187407, t5, t1);
     t12 = (t11 / 32);
     t13 = (t12 - 0);
