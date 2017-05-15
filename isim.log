@@ -18,8 +18,3 @@ at 0 ps, Instance /tbprocesador/uut/Inst_RF/ : Warning: CONV_INTEGER: There is a
 at 0 ps, Instance /tbprocesador/uut/Inst_RF/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
 Finished circuit initialization process.
 at 0 ps, Instance /tbprocesador/uut/Inst_WM/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
-at 20 ns(1), Instance /tbprocesador/uut/Inst_RF/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
-at 20 ns(1), Instance /tbprocesador/uut/Inst_RF/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
-at 20 ns(4), Instance /tbprocesador/uut/Inst_RF/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
-at 20 ns(4), Instance /tbprocesador/uut/Inst_RF/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
-at 50 ns(2), Instance /tbprocesador/uut/Inst_IM/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
