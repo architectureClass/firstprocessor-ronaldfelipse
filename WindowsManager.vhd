@@ -13,6 +13,7 @@ entity WindowsManager is
            nrs2 : out  STD_LOGIC_VECTOR (5 downto 0);
            nrd : out  STD_LOGIC_VECTOR (5 downto 0);
            ncwp : out  STD_LOGIC;
+			  RO7 : out STD_LOGIC_VECTOR (5 downto 0);
            cwp : in  STD_LOGIC);
 end WindowsManager;
 
@@ -20,9 +21,12 @@ architecture Behavioral of WindowsManager is
 
 signal Rs1Integer,Rs2Integer,RdInteger: integer range 0 to 39:=0;
 signal ncwp_signal: STD_LOGIC;
+signal auxRO7: STD_LOGIC_VECTOR(5 downto 0):= "001111";
 
 begin
 
+auxRO7 <= conv_std_logic_vector(conv_integer(cwp) * 16,6);
+RO7 <= auxRO7 + "001111";
 process(cwp,op,op3,rs1,rs2,rd,ncwp_signal)
 	begin
 		if(op = "10") then

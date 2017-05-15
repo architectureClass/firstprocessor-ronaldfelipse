@@ -17,7 +17,7 @@ ARCHITECTURE behavior OF tbUC IS
     PORT(
          op : IN  std_logic_vector(1 downto 0);
          op3 : IN  std_logic_vector(5 downto 0);
-         salidaUnidadControl : OUT  std_logic_vector(3 downto 0)
+         salidaUnidadControl : OUT  std_logic_vector(5 downto 0)
         );
     END COMPONENT;
     
@@ -27,7 +27,7 @@ ARCHITECTURE behavior OF tbUC IS
    signal op3 : std_logic_vector(5 downto 0) := (others => '0');
 
  	--Outputs
-   signal salidaUnidadControl : std_logic_vector(3 downto 0);
+   signal salidaUnidadControl : std_logic_vector(5 downto 0);
    -- No clocks detected in port list. Replace <clock> below with 
    -- appropriate port name 
  

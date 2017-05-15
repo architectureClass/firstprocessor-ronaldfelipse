@@ -1,6 +1,7 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.STD_LOGIC_UNSIGNED.ALL;
+use ieee.numeric_std.ALL;
 
 entity ALU is
     Port ( dato1Alu : in  STD_LOGIC_VECTOR (31 downto 0);
@@ -14,75 +15,31 @@ architecture Behavioral of ALU is
 
 begin
 
-process(dato1Alu,dato2Alu,operacionAlu)
+process(dato1Alu,dato2Alu,operacionAlu,carry)
 	begin
 	   case (operacionAlu) is 
-			when "000000" => 
+			when "000000" => -- add,addcc
 				salidaAlu <= dato1Alu + dato2Alu;
-			when "111100" => ---SAVE
-				salidaAlu <= dato1Alu + dato2Alu;
-				
-			when "111101" => --- REstore
-				salidaAlu <= dato1Alu + dato2Alu;
-
-				
-			when "010000" => 
-				salidaAlu <= dato1Alu + dato2Alu;
-			when "000100" => 
+			when "000001" => -- sub,subcc
 				salidaAlu <= dato1Alu - dato2Alu;
-			when "010100" => 
-				salidaAlu <= dato1Alu - dato2Alu;
-			when "000001" => 
+			when "000010" => --and,andcc
 				salidaAlu <= dato1Alu and dato2Alu;
-			
-			when "010001" => 
-				salidaAlu <= dato1Alu and dato2Alu;
-			when "000101" => 
+			when "100010" => --andn,andncc
 				salidaAlu <= dato1Alu and not (dato2Alu);
-				
-			when "010101" => 
-				salidaAlu <= dato1Alu and not (dato2Alu);
-				
-			when "000010" => 
+			when "000011" => -- or,orcc
 				salidaAlu <= dato1Alu or dato2Alu;
-				
-			when "010010" => 
-				salidaAlu <= dato1Alu or dato2Alu;
-				
-			when "000110" =>
-				salidaAlu <= dato1Alu or not (dato2Alu);
-				
-			when "010110" =>
-				salidaAlu <= dato1Alu or not (dato2Alu);
-				
-			when "000011" =>
+			when "100011" => -- orn,orncc
+				salidaAlu <= dato1Alu or not(dato2Alu);
+			when "000100" => -- xor,xorcc
 				salidaAlu <= dato1Alu xor dato2Alu;
-				
-			when "010011" =>
-				salidaAlu <= dato1Alu xor dato2Alu;
-				
-			when "000111" =>
+			when "100100" => -- xnor,xnorcc
 				salidaAlu <= dato1Alu xnor dato2Alu;
-				
-			when "010111" =>
-				salidaAlu <= dato1Alu xnor dato2Alu;
-				
-			when "001000" => -- addX
+			when "000101" => -- addX,addXcc
 				salidaAlu <= dato1Alu + dato2Alu + carry;
-			when "001100" => --subX
+			when "000110" => --subX,subXcc
 				salidaAlu <= dato1Alu - dato2Alu - carry;
-			when "011000" => -- addXcc
-				salidaAlu <= dato1Alu + dato2Alu + carry;
-			when "011100" => --subXcc
-				salidaAlu <= dato1Alu - dato2Alu - carry;
-			
-			when "100110" => -- SRL
-				salidaAlu <= to_stdlogicvector(to_bitvector(dato1Alu) srl conv_integer(dato2Alu));
-			when "100101" => --SLL
-				salidaAlu <= to_stdlogicvector(to_bitvector(dato1Alu) sll conv_integer(dato2Alu)); 	
-			
-			when others => 
-				salidaAlu <= (others=>'0');
+			when others =>
+				salidaAlu <= (others=>'0');--hola
 		end case;
 	end process;
 

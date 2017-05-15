@@ -24,4 +24,3 @@ process (clk, reset, pc_entrada)
 end process;
 
 end Behavioral;
-

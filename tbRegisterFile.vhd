@@ -14,9 +14,9 @@ ARCHITECTURE behavior OF tbRegisterFile IS
  
     COMPONENT RegisterFile
     PORT(
-         rs1 : IN  std_logic_vector(4 downto 0);
-         rs2 : IN  std_logic_vector(4 downto 0);
-         rd : IN  std_logic_vector(4 downto 0);
+         nrs1 : IN  std_logic_vector(5 downto 0);
+         nrs2 : IN  std_logic_vector(5 downto 0);
+         nrd : IN  std_logic_vector(5 downto 0);
          datoEscribir : IN  std_logic_vector(31 downto 0);
          reset : IN  std_logic;
          crs1 : OUT  std_logic_vector(31 downto 0);
@@ -26,9 +26,9 @@ ARCHITECTURE behavior OF tbRegisterFile IS
     
 
    --Inputs
-   signal rs1 : std_logic_vector(4 downto 0) := (others => '0');
-   signal rs2 : std_logic_vector(4 downto 0) := (others => '0');
-   signal rd : std_logic_vector(4 downto 0) := (others => '0');
+   signal nrs1 : std_logic_vector(5 downto 0) := (others => '0');
+   signal nrs2 : std_logic_vector(5 downto 0) := (others => '0');
+   signal nrd : std_logic_vector(5 downto 0) := (others => '0');
    signal datoEscribir : std_logic_vector(31 downto 0) := (others => '0');
    signal reset : std_logic := '0';
 
@@ -44,9 +44,9 @@ BEGIN
  
 	-- Instantiate the Unit Under Test (UUT)
    uut: RegisterFile PORT MAP (
-          rs1 => rs1,
-          rs2 => rs2,
-          rd => rd,
+          nrs1 => nrs1,
+          nrs2 => nrs2,
+          nrd => nrd,
           datoEscribir => datoEscribir,
           reset => reset,
           crs1 => crs1,
@@ -61,9 +61,9 @@ BEGIN
    stim_proc: process
    begin		
 		reset <= '0';
-		rs1 <= "10000";
-		rs2 <= "10001";
-		rd <= "00001";
+		nrs1 <= "010000";
+		nrs2 <= "010001";
+		nrd <= "000001";
 		datoEscribir <= x"00001000";
 		wait for 100 ns;
    end process;

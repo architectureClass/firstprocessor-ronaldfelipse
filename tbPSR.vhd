@@ -5,42 +5,48 @@ USE ieee.std_logic_1164.ALL;
 -- arithmetic functions with Signed or Unsigned values
 --USE ieee.numeric_std.ALL;
  
-ENTITY tbProcesador IS
-END tbProcesador;
+ENTITY tbPSR IS
+END tbPSR;
  
-ARCHITECTURE behavior OF tbProcesador IS 
+ARCHITECTURE behavior OF tbPSR IS 
  
     -- Component Declaration for the Unit Under Test (UUT)
  
-    COMPONENT Procesador
+    COMPONENT PSR
     PORT(
-         clk : IN  std_logic;
          reset : IN  std_logic;
-         salidaAlu : OUT  std_logic_vector(31 downto 0)
+         clk : IN  std_logic;
+         salidaPSR : OUT  std_logic;
+         nzvc : IN  std_logic_vector(3 downto 0);
+         ncwp : IN  std_logic;
+         cwp : OUT  std_logic
         );
     END COMPONENT;
     
 
    --Inputs
-   signal clk : std_logic := '0';
    signal reset : std_logic := '0';
+   signal clk : std_logic := '0';
+   signal nzvc : std_logic_vector(3 downto 0) := (others => '0');
+   signal ncwp : std_logic := '0';
 
  	--Outputs
-   signal salidaAlu : std_logic_vector(31 downto 0);
-	
-
-	
+   signal salidaPSR : std_logic;
+   signal cwp : std_logic;
 
    -- Clock period definitions
-   constant clk_period : time := 20 ns;
+   constant clk_period : time := 10 ns;
  
 BEGIN
  
 	-- Instantiate the Unit Under Test (UUT)
-   uut: Procesador PORT MAP (
-          clk => clk,
+   uut: PSR PORT MAP (
           reset => reset,
-          salidaAlu => salidaAlu
+          clk => clk,
+          salidaPSR => salidaPSR,
+          nzvc => nzvc,
+          ncwp => ncwp,
+          cwp => cwp
         );
 
    -- Clock process definitions
@@ -56,9 +62,12 @@ BEGIN
    -- Stimulus process
    stim_proc: process
    begin		
-      reset <= '1';
-      wait for 20 ns;	
-		reset <= '0'; 
+      reset<='1';
+		ncwp<='0';
+		nzvc<="0101";
+      wait for 100 ns;	
+		reset<='0';
+		ncwp<='1';
       wait;
    end process;
 
