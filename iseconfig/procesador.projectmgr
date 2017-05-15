@@ -74,26 +74,32 @@
    <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
       <ClosedNodes>
          <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/tbAlu - behavior C:|Users|cristian b|Documents|WorkPlace|firstprocessor-ronaldfelipse|tbAlu.vhd</ClosedNode>
          <ClosedNode>/tbAlu - behavior C:|Users|cristian b|Downloads|Procesor-4.2|Pull|firstprocessor-ronaldfelipse|tbAlu.vhd</ClosedNode>
          <ClosedNode>/tbAlu - behavior C:|Users|utp.CRIE|Desktop|RestadorBinario8bits|procesador|tbAlu.vhd</ClosedNode>
          <ClosedNode>/tbAlu - behavior C:|Users|utp.CRIE|Desktop|firstprocessor-ronaldfelipse-3d3a6448cdfb3922c3d0108afe146206791c2697|tbAlu.vhd</ClosedNode>
          <ClosedNode>/tbAlu - behavior E:|arqui|procesador|tbAlu.vhd</ClosedNode>
          <ClosedNode>/tbAlu - behavior F:|arqui|procesador|tbAlu.vhd</ClosedNode>
+         <ClosedNode>/tbInstructionMemory - behavior C:|Users|cristian b|Documents|WorkPlace|firstprocessor-ronaldfelipse|tbInstructionMemory.vhd</ClosedNode>
          <ClosedNode>/tbInstructionMemory - behavior C:|Users|cristian b|Downloads|Procesor-4.2|Pull|firstprocessor-ronaldfelipse|tbInstructionMemory.vhd</ClosedNode>
          <ClosedNode>/tbInstructionMemory - behavior C:|Users|utp.CRIE|Desktop|RestadorBinario8bits|procesador|tbInstructionMemory.vhd</ClosedNode>
          <ClosedNode>/tbInstructionMemory - behavior C:|Users|utp.CRIE|Desktop|firstprocessor-ronaldfelipse-3d3a6448cdfb3922c3d0108afe146206791c2697|tbInstructionMemory.vhd</ClosedNode>
          <ClosedNode>/tbInstructionMemory - behavior E:|arqui|procesador|tbInstructionMemory.vhd</ClosedNode>
          <ClosedNode>/tbInstructionMemory - behavior F:|arqui|procesador|tbInstructionMemory.vhd</ClosedNode>
+         <ClosedNode>/tbNPC - behavior C:|Users|cristian b|Documents|WorkPlace|firstprocessor-ronaldfelipse|tbNPC.vhd</ClosedNode>
          <ClosedNode>/tbNPC - behavior C:|Users|cristian b|Downloads|Procesor-4.2|Pull|firstprocessor-ronaldfelipse|tbNPC.vhd</ClosedNode>
          <ClosedNode>/tbNPC - behavior C:|Users|utp.CRIE|Desktop|RestadorBinario8bits|procesador|tbNPC.vhd</ClosedNode>
          <ClosedNode>/tbNPC - behavior C:|Users|utp.CRIE|Desktop|firstprocessor-ronaldfelipse-3d3a6448cdfb3922c3d0108afe146206791c2697|tbNPC.vhd</ClosedNode>
          <ClosedNode>/tbNPC - behavior E:|arqui|procesador|tbNPC.vhd</ClosedNode>
          <ClosedNode>/tbNPC - behavior F:|arqui|procesador|tbNPC.vhd</ClosedNode>
+         <ClosedNode>/tbProcesador - behavior C:|Users|cristian b|Documents|WorkPlace|firstprocessor-ronaldfelipse|tbProcesador.vhd</ClosedNode>
          <ClosedNode>/tbProcesador - behavior C:|Users|cristian b|Downloads|Procesor-4.2|Pull|firstprocessor-ronaldfelipse|tbProcesador.vhd</ClosedNode>
          <ClosedNode>/tbProcesador - behavior C:|Users|utp.CRIE|Desktop|RestadorBinario8bits|procesador|tbProcesador.vhd</ClosedNode>
+         <ClosedNode>/tbRegisterFile - behavior C:|Users|cristian b|Documents|WorkPlace|firstprocessor-ronaldfelipse|tbRegisterFile.vhd</ClosedNode>
          <ClosedNode>/tbRegisterFile - behavior C:|Users|cristian b|Downloads|Procesor-4.2|Pull|firstprocessor-ronaldfelipse|tbRegisterFile.vhd</ClosedNode>
          <ClosedNode>/tbRegisterFile - behavior E:|arqui|procesador|tbRegisterFile.vhd</ClosedNode>
          <ClosedNode>/tbRegisterFile - behavior F:|arqui|procesador|tbRegisterFile.vhd</ClosedNode>
+         <ClosedNode>/tbUC - behavior C:|Users|cristian b|Documents|WorkPlace|firstprocessor-ronaldfelipse|tbUC.vhd</ClosedNode>
          <ClosedNode>/tbUC - behavior C:|Users|cristian b|Downloads|Procesor-4.2|Pull|firstprocessor-ronaldfelipse|tbUC.vhd</ClosedNode>
          <ClosedNode>/tbUC - behavior E:|arqui|procesador|tbUC.vhd</ClosedNode>
          <ClosedNode>/tbUC - behavior F:|arqui|procesador|tbUC.vhd</ClosedNode>
@@ -115,13 +121,13 @@
          <ClosedNode>/tb_sumador32 - behavior F:|arqui|procesador|tb_sumador32.vhd</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>tbProcesador - behavior (C:/Users/cristian b/Downloads/Procesor-4.2/Pull/firstprocessor-ronaldfelipse/tbProcesador.vhd)</SelectedItem>
+         <SelectedItem>tbProcesador - behavior (C:/Users/cristian b/Documents/WorkPlace/firstprocessor-ronaldfelipse/tbProcesador.vhd)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000181000000020000000000000000000000000200000064ffffffff000000810000000300000002000001810000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000018b000000020000000000000000000000000200000064ffffffff0000008100000003000000020000018b0000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>tbProcesador - behavior (C:/Users/cristian b/Downloads/Procesor-4.2/Pull/firstprocessor-ronaldfelipse/tbProcesador.vhd)</CurrentItem>
+      <CurrentItem>tbProcesador - behavior (C:/Users/cristian b/Documents/WorkPlace/firstprocessor-ronaldfelipse/tbProcesador.vhd)</CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -129,13 +135,13 @@
          <ClosedNode>Design Utilities</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem/>
+         <SelectedItem></SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem/>
+      <CurrentItem></CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
       <ClosedNodes>
@@ -151,7 +157,7 @@
       <CurrentItem>Simulate Behavioral Model</CurrentItem>
    </ItemView>
    <SourceProcessView>000000ff00000000000000020000011b0000011b01000000050100000002</SourceProcessView>
-   <CurrentView>Implementation</CurrentView>
+   <CurrentView>Behavioral Simulation</CurrentView>
    <ItemView engineview="SynthesisOnly" sourcetype="DESUT_BMM" guiview="Process" >
       <ClosedNodes>
          <ClosedNodesVersion>1</ClosedNodesVersion>

@@ -1,0 +1,63 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/cristian b/Documents/WorkPlace/firstprocessor-ronaldfelipse/tbProcesador_isim_beh.exe -prj C:/Users/cristian b/Documents/WorkPlace/firstprocessor-ronaldfelipse/tbProcesador_beh.prj work.tbProcesador 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/cristian b/Documents/WorkPlace/firstprocessor-ronaldfelipse/WindowsManager.vhd" into library work
+Parsing VHDL file "C:/Users/cristian b/Documents/WorkPlace/firstprocessor-ronaldfelipse/UnidadControl.vhd" into library work
+Parsing VHDL file "C:/Users/cristian b/Documents/WorkPlace/firstprocessor-ronaldfelipse/sumador32.vhd" into library work
+Parsing VHDL file "C:/Users/cristian b/Documents/WorkPlace/firstprocessor-ronaldfelipse/RegisterFile.vhd" into library work
+Parsing VHDL file "C:/Users/cristian b/Documents/WorkPlace/firstprocessor-ronaldfelipse/PSRM.vhd" into library work
+Parsing VHDL file "C:/Users/cristian b/Documents/WorkPlace/firstprocessor-ronaldfelipse/PSR.vhd" into library work
+Parsing VHDL file "C:/Users/cristian b/Documents/WorkPlace/firstprocessor-ronaldfelipse/ProgramCounter.vhd" into library work
+Parsing VHDL file "C:/Users/cristian b/Documents/WorkPlace/firstprocessor-ronaldfelipse/NProgramCounter.vhd" into library work
+Parsing VHDL file "C:/Users/cristian b/Documents/WorkPlace/firstprocessor-ronaldfelipse/multiplexor32.vhd" into library work
+Parsing VHDL file "C:/Users/cristian b/Documents/WorkPlace/firstprocessor-ronaldfelipse/InstructionMemory.vhd" into library work
+Parsing VHDL file "C:/Users/cristian b/Documents/WorkPlace/firstprocessor-ronaldfelipse/extensionSigno.vhd" into library work
+Parsing VHDL file "C:/Users/cristian b/Documents/WorkPlace/firstprocessor-ronaldfelipse/ALU.vhd" into library work
+Parsing VHDL file "C:/Users/cristian b/Documents/WorkPlace/firstprocessor-ronaldfelipse/Procesador.vhd" into library work
+Parsing VHDL file "C:/Users/cristian b/Documents/WorkPlace/firstprocessor-ronaldfelipse/tbProcesador.vhd" into library work
+Starting static elaboration
+WARNING:HDLCompiler:89 - "C:/Users/cristian b/Documents/WorkPlace/firstprocessor-ronaldfelipse/Procesador.vhd" Line 329: <datamemory> remains a black-box since it has no binding entity.
+WARNING:HDLCompiler:89 - "C:/Users/cristian b/Documents/WorkPlace/firstprocessor-ronaldfelipse/Procesador.vhd" Line 339: <muxpc> remains a black-box since it has no binding entity.
+WARNING:HDLCompiler:89 - "C:/Users/cristian b/Documents/WorkPlace/firstprocessor-ronaldfelipse/Procesador.vhd" Line 349: <seu22> remains a black-box since it has no binding entity.
+WARNING:HDLCompiler:89 - "C:/Users/cristian b/Documents/WorkPlace/firstprocessor-ronaldfelipse/Procesador.vhd" Line 354: <seu30> remains a black-box since it has no binding entity.
+WARNING:HDLCompiler:89 - "C:/Users/cristian b/Documents/WorkPlace/firstprocessor-ronaldfelipse/Procesador.vhd" Line 360: <sumador22> remains a black-box since it has no binding entity.
+WARNING:HDLCompiler:89 - "C:/Users/cristian b/Documents/WorkPlace/firstprocessor-ronaldfelipse/Procesador.vhd" Line 366: <muxdatamanager> remains a black-box since it has no binding entity.
+WARNING:HDLCompiler:89 - "C:/Users/cristian b/Documents/WorkPlace/firstprocessor-ronaldfelipse/Procesador.vhd" Line 374: <muxrf_wm> remains a black-box since it has no binding entity.
+WARNING:HDLCompiler:89 - "C:/Users/cristian b/Documents/WorkPlace/firstprocessor-ronaldfelipse/Procesador.vhd" Line 381: <sumador30> remains a black-box since it has no binding entity.
+Completed static elaboration
+WARNING:Simulator:648 - "C:/Users/cristian b/Documents/WorkPlace/firstprocessor-ronaldfelipse/Procesador.vhd" Line 329. Instance datamemory is unbound
+WARNING:Simulator:648 - "C:/Users/cristian b/Documents/WorkPlace/firstprocessor-ronaldfelipse/Procesador.vhd" Line 339. Instance muxpc is unbound
+WARNING:Simulator:648 - "C:/Users/cristian b/Documents/WorkPlace/firstprocessor-ronaldfelipse/Procesador.vhd" Line 349. Instance seu22 is unbound
+WARNING:Simulator:648 - "C:/Users/cristian b/Documents/WorkPlace/firstprocessor-ronaldfelipse/Procesador.vhd" Line 354. Instance seu30 is unbound
+WARNING:Simulator:648 - "C:/Users/cristian b/Documents/WorkPlace/firstprocessor-ronaldfelipse/Procesador.vhd" Line 360. Instance sumador22 is unbound
+WARNING:Simulator:648 - "C:/Users/cristian b/Documents/WorkPlace/firstprocessor-ronaldfelipse/Procesador.vhd" Line 366. Instance muxdatamanager is unbound
+WARNING:Simulator:648 - "C:/Users/cristian b/Documents/WorkPlace/firstprocessor-ronaldfelipse/Procesador.vhd" Line 374. Instance muxrf_wm is unbound
+WARNING:Simulator:648 - "C:/Users/cristian b/Documents/WorkPlace/firstprocessor-ronaldfelipse/Procesador.vhd" Line 381. Instance sumador30 is unbound
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package textio
+Compiling package numeric_std
+Compiling architecture behavioral of entity PSRM [psrm_default]
+Compiling architecture behavioral of entity PSR [psr_default]
+Compiling architecture behavioral of entity WindowsManager [windowsmanager_default]
+Compiling architecture behavioral of entity NProgramCounter [nprogramcounter_default]
+Compiling architecture behavioral of entity ProgramCounter [programcounter_default]
+Compiling architecture behavioral of entity sumador32 [sumador32_default]
+Compiling architecture behavioral of entity InstructionMemory [instructionmemory_default]
+Compiling architecture behavioral of entity UnidadControl [unidadcontrol_default]
+Compiling architecture behavioral of entity RegisterFile [registerfile_default]
+Compiling architecture behavioral of entity extensionSigno [extensionsigno_default]
+Compiling architecture behavioral of entity multiplexor32 [multiplexor32_default]
+Compiling architecture behavioral of entity ALU [alu_default]
+Compiling architecture behavioral of entity Procesador [procesador_default]
+Compiling architecture behavior of entity tbprocesador
+Time Resolution for simulation is 1ps.
+Waiting for 4 sub-compilation(s) to finish...
+Compiled 33 VHDL Units
+Built simulation executable C:/Users/cristian b/Documents/WorkPlace/firstprocessor-ronaldfelipse/tbProcesador_isim_beh.exe
+Fuse Memory Usage: 37616 KB
+Fuse CPU Usage: 843 ms

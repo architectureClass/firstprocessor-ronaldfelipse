@@ -5,5 +5,53 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
+<msg type="warning" file="HDLCompiler" num="89" delta="unknown" >"C:/Users/cristian b/Documents/WorkPlace/firstprocessor-ronaldfelipse/Procesador.vhd" Line 329: &lt;<arg fmt="%s" index="1">datamemory</arg>&gt; remains a black-box since it has no binding entity.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="89" delta="unknown" >"C:/Users/cristian b/Documents/WorkPlace/firstprocessor-ronaldfelipse/Procesador.vhd" Line 339: &lt;<arg fmt="%s" index="1">muxpc</arg>&gt; remains a black-box since it has no binding entity.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="89" delta="unknown" >"C:/Users/cristian b/Documents/WorkPlace/firstprocessor-ronaldfelipse/Procesador.vhd" Line 349: &lt;<arg fmt="%s" index="1">seu22</arg>&gt; remains a black-box since it has no binding entity.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="89" delta="unknown" >"C:/Users/cristian b/Documents/WorkPlace/firstprocessor-ronaldfelipse/Procesador.vhd" Line 354: &lt;<arg fmt="%s" index="1">seu30</arg>&gt; remains a black-box since it has no binding entity.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="89" delta="unknown" >"C:/Users/cristian b/Documents/WorkPlace/firstprocessor-ronaldfelipse/Procesador.vhd" Line 360: &lt;<arg fmt="%s" index="1">sumador22</arg>&gt; remains a black-box since it has no binding entity.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="89" delta="unknown" >"C:/Users/cristian b/Documents/WorkPlace/firstprocessor-ronaldfelipse/Procesador.vhd" Line 366: &lt;<arg fmt="%s" index="1">muxdatamanager</arg>&gt; remains a black-box since it has no binding entity.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="89" delta="unknown" >"C:/Users/cristian b/Documents/WorkPlace/firstprocessor-ronaldfelipse/Procesador.vhd" Line 374: &lt;<arg fmt="%s" index="1">muxrf_wm</arg>&gt; remains a black-box since it has no binding entity.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="89" delta="unknown" >"C:/Users/cristian b/Documents/WorkPlace/firstprocessor-ronaldfelipse/Procesador.vhd" Line 381: &lt;<arg fmt="%s" index="1">sumador30</arg>&gt; remains a black-box since it has no binding entity.
+</msg>
+
+<msg type="warning" file="Simulator" num="648" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Users/cristian b/Documents/WorkPlace/firstprocessor-ronaldfelipse/Procesador.vhd</arg>&quot; Line <arg fmt="%d" index="2">329</arg>. Instance <arg fmt="%s" index="3">datamemory</arg> is unbound
+</msg>
+
+<msg type="warning" file="Simulator" num="648" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Users/cristian b/Documents/WorkPlace/firstprocessor-ronaldfelipse/Procesador.vhd</arg>&quot; Line <arg fmt="%d" index="2">339</arg>. Instance <arg fmt="%s" index="3">muxpc</arg> is unbound
+</msg>
+
+<msg type="warning" file="Simulator" num="648" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Users/cristian b/Documents/WorkPlace/firstprocessor-ronaldfelipse/Procesador.vhd</arg>&quot; Line <arg fmt="%d" index="2">349</arg>. Instance <arg fmt="%s" index="3">seu22</arg> is unbound
+</msg>
+
+<msg type="warning" file="Simulator" num="648" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Users/cristian b/Documents/WorkPlace/firstprocessor-ronaldfelipse/Procesador.vhd</arg>&quot; Line <arg fmt="%d" index="2">354</arg>. Instance <arg fmt="%s" index="3">seu30</arg> is unbound
+</msg>
+
+<msg type="warning" file="Simulator" num="648" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Users/cristian b/Documents/WorkPlace/firstprocessor-ronaldfelipse/Procesador.vhd</arg>&quot; Line <arg fmt="%d" index="2">360</arg>. Instance <arg fmt="%s" index="3">sumador22</arg> is unbound
+</msg>
+
+<msg type="warning" file="Simulator" num="648" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Users/cristian b/Documents/WorkPlace/firstprocessor-ronaldfelipse/Procesador.vhd</arg>&quot; Line <arg fmt="%d" index="2">366</arg>. Instance <arg fmt="%s" index="3">muxdatamanager</arg> is unbound
+</msg>
+
+<msg type="warning" file="Simulator" num="648" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Users/cristian b/Documents/WorkPlace/firstprocessor-ronaldfelipse/Procesador.vhd</arg>&quot; Line <arg fmt="%d" index="2">374</arg>. Instance <arg fmt="%s" index="3">muxrf_wm</arg> is unbound
+</msg>
+
+<msg type="warning" file="Simulator" num="648" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Users/cristian b/Documents/WorkPlace/firstprocessor-ronaldfelipse/Procesador.vhd</arg>&quot; Line <arg fmt="%d" index="2">381</arg>. Instance <arg fmt="%s" index="3">sumador30</arg> is unbound
+</msg>
+
 </messages>
 

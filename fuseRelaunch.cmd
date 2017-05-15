@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -o "C:/Users/cristian b/Desktop/Arquitectura/firstprocessor-ronaldfelipse/tbProcesador_isim_beh.exe" -prj "C:/Users/cristian b/Desktop/Arquitectura/firstprocessor-ronaldfelipse/tbProcesador_beh.prj" "work.tbProcesador" 
+-intstyle "ise" -incremental -o "C:/Users/cristian b/Documents/WorkPlace/firstprocessor-ronaldfelipse/tbProcesador_isim_beh.exe" -prj "C:/Users/cristian b/Documents/WorkPlace/firstprocessor-ronaldfelipse/tbProcesador_beh.prj" "work.tbProcesador" 
